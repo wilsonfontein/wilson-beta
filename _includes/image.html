@@ -12,5 +12,5 @@
 <div class="col-10 col-lg-6 center clearfix caption">
     <span class="photographer">© {{ pic.author}}</span> -
     <span class="title">{{ title }}</span>
-    <p>{{ include.param2 }}</p>
+    {% if include.param2 %}<p>{{ include.param2 }}</p>{% endif %}
 </div>

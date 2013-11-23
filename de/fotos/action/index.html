@@ -1,16 +1,154 @@
----
-categories: [de, fotos , action]
-lang: de
-layout: default
-navname: photos
-h1: fotos
-p1: action
----
-{% assign o = site.tags.hideme[0] %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
 
-{% for pico in o.pics %}
-    {% assign post = pico[1] %}
-    {% assign pid = post.pid %}
-    {% assign album_path = '/de/fotos/action/' %}
-    {% if post.categories contains 'action' %}{% include photo_thumb.html param=pid param2=album_path %}{% endif %}
-{% endfor %}
+<title>
+            Wilsonfontein - Jagd Safaris in Namibia / Afrika 
+            
+            
+        </title>
+
+<!-- Bootstrap core CSS -->
+<link href="/css/bootstrap.css" rel="stylesheet">
+
+<!-- Documentation extras -->
+<link href="/css/wilson.css" rel="stylesheet">
+<!-- <link href="/css/pygments-manni.css" rel="stylesheet"> -->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="./js/html5shiv.js"></script>
+  <script src="./js/respond.min.js"></script>
+<![endif]-->
+
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./ico/apple-touch-icon-72-precomposed.png">
+                <link rel="apple-touch-icon-precomposed" href="./ico/apple-touch-icon-57-precomposed.png">
+                               <link rel="shortcut icon" href="./ico/favicon.png">
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-146052-10']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <!-- Place anything custom after this. -->
+  </head>
+  <body class="">
+
+    <!-- Docs master nav -->
+    <div class="navbar navbar-inverse bs-docs-nav">
+      <div class="container">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        </button>
+        <div class="nav-collapse collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+              <li ><a href="/de/index.html">Home</a></li>
+            
+              <li ><a href="/de/lage.html">Lage</a></li>
+            
+              <li ><a href="/de/jagd.html">Jagd</a></li>
+            
+              <li ><a href="/de/erholung.html">Erholung</a></li>
+            
+              <li class="active"><a href="/de/fotos/">Fotos</a></li>
+            
+              <li ><a href="/de/preise.html">Preise</a></li>
+            
+              <li ><a href="/de/kontakt.html">Kontakt</a></li>
+            
+              <li ><a href="/de/widmung.html">Widmung</a></li>
+            
+              <li ><a href="/de/impressum.html">Impressum</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> de <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                
+                 <li><a href="/en/photos/">en</a></li>
+                
+                 <li><a href="/de/fotos/">de</a></li>
+                
+                 <li><a href="/fr/photos/">fr</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+<!--         <ul class="nav navbar-nav ">
+        </ul> -->
+      </div>
+    </div>
+
+    <!-- Page content of course! -->
+    <div class="row">
+        <div class="col-12 col-lg-8 col-offset-2">
+          <h1 class="big">Fotos <small>Action</small></h1>
+          <div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div><div class='col-4 col-lg-2 margin-bottom'>
+    <a href='.html'>
+    <img alt='' class='img-thumbnail center img-responsive' src='/img/thumbs/' title='' /></a>
+</div>
+          <footer>
+            <p class="pull-right">&copy; Olaf 2013</p>
+          </footer>
+        </div>
+    </div>
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- <script src="./js/jquery.js"></script> -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+<script src="/js/bootstrap.js"></script>
+
+<script src="/js/holder.js"></script>
+
+<script src="/js/application.js"></script>
+
+<!-- Analytics
+================================================== -->
+
+  </body>
+</html>

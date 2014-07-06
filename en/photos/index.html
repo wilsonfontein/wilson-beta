@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
 
-<title>
-            
-            Wilsonfontein - Hunting Safaris in Namibia / Africa 
-            
-        </title>
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
 
-<!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- Documentation extras -->
-<link href="/css/wilson.css" rel="stylesheet">
-<!-- <link href="/css/pygments-manni.css" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <!-- <link href="/css/sticky-footer-navbar.css" rel="stylesheet"> -->
+    <link href="/css/wilson.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="./js/html5shiv.js"></script>
-  <script src="./js/respond.min.js"></script>
-<![endif]-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-<!-- Favicons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./ico/apple-touch-icon-72-precomposed.png">
-                <link rel="apple-touch-icon-precomposed" href="./ico/apple-touch-icon-57-precomposed.png">
-                               <link rel="shortcut icon" href="./ico/favicon.png">
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-146052-10']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-    <!-- Place anything custom after this. -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body class="">
 
-    <!-- Docs master nav -->
-    <div class="navbar navbar-inverse bs-docs-nav">
+  <body>
+
+    <!-- Fixed navbar -->
+<!--     <div class="navbar navbar-inverse bs-docs-nav">
       <div class="container">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        </button>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
         <div class="nav-collapse collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+              <li class="active"><a href="/en/photos/">Photos</a></li>
+            
+              <li ><a href="/en/price.html">Price</a></li>
+            
+              <li ><a href="/en/contact.html">Contact</a></li>
+            
+              <li ><a href="/en/dedication.html">Dedication</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> en <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                
+                  <li><a href="/en/photos/">en</a></li>
+                
+                  <li><a href="/de/fotos/">de</a></li>
+                
+                  <li><a href="/fr/photos/">fr</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="nav navbar-nav ">
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="navbar navbar-default " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Project name</a> -->
+        </div>
+        <div class="navbar-header">
           <ul class="nav navbar-nav">
             
               <li ><a href="/en/index.html">Home</a></li>
@@ -64,6 +86,16 @@
             
               <li ><a href="/en/recreation.html">Recreation</a></li>
             
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+            
+            
               <li class="active"><a href="/en/photos/">Photos</a></li>
             
               <li ><a href="/en/price.html">Price</a></li>
@@ -72,35 +104,53 @@
             
               <li ><a href="/en/dedication.html">Dedication</a></li>
             
-              <li ><a href="/en/imprint.html">Imprint</a></li>
-            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> en <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 
-                 <li><a href="/en/photos/">en</a></li>
+                  <li><a href="/en/photos/" class="en">en</a></li>
                 
-                 <li><a href="/de/fotos/">de</a></li>
+                  <li><a href="/de/fotos/" class="de">de</a></li>
                 
-                 <li><a href="/fr/photos/">fr</a></li>
+                  <li><a href="/fr/photos/" class="fr">fr</a></li>
                 
               </ul>
             </li>
+            <li class="dropdown dropdown-split">
+              <a href="#" class="foo">Dropdown</a><a href="#" class="dropdown-toggle bar" data-toggle="dropdown"><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li>
+            
           </ul>
         </div>
-<!--         <ul class="nav navbar-nav ">
-        </ul> -->
       </div>
     </div>
 
-    <!-- Page content of course! -->
-    <div class="row">
+<!--     <div class="row">
         <div class="col-12 col-lg-8 col-offset-2">
-          <h1 class="big">Photos <small>Preview</small></h1>
-          <div class='album container'>
-    <div class='col-12'>
-        <h2><a href='/en/photos/plants/'>Plants</a></h2>
-        <div class='album-imgs preview'>
+        </div>
+    </div> -->
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Photos <small>Preview</small></h1>
+        <!-- <h1>Sticky footer with fixed navbar</h1> -->
+      </div>
+      
+<div class="album container">
+    <div class="col-12">
+        <h2><a href="/en/photos/plants/">Plants</a></h2>
+        <div class="album-imgs preview">
             
             
 
@@ -109,9 +159,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/plants/P0000197.html'>
-    <img alt='Hottentotten Church' class='img-thumbnail center img-responsive' src='/img/thumbs/hottentottenkirche2.jpg' title='Hottentotten Church' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/plants/P0000197.html">
+    <img src="/img/thumbs/hottentottenkirche2.jpg" class="img-thumbnail center img-responsive" alt="Hottentotten Church" title="Hottentotten Church" /></a>
 </div>
 
             
@@ -124,9 +174,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/plants/P0000284.html'>
-    <img alt='P1000515' class='img-thumbnail center img-responsive' src='/img/thumbs/P1000515.JPG' title='P1000515' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/plants/P0000284.html">
+    <img src="/img/thumbs/P1000515.JPG" class="img-thumbnail center img-responsive" alt="P1000515" title="P1000515" /></a>
 </div>
 
             
@@ -139,9 +189,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/plants/P0000242.html'>
-    <img alt='Euphoribia Monteroi' class='img-thumbnail center img-responsive' src='/img/thumbs/P1000516.JPG' title='Euphoribia Monteroi' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/plants/P0000242.html">
+    <img src="/img/thumbs/P1000516.JPG" class="img-thumbnail center img-responsive" alt="Euphoribia Monteroi" title="Euphoribia Monteroi" /></a>
 </div>
 
             
@@ -154,9 +204,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/plants/P0000287.html'>
-    <img alt='Jung und Alt' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_3112.JPG' title='Jung und Alt' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/plants/P0000287.html">
+    <img src="/img/thumbs/IMG_3112.JPG" class="img-thumbnail center img-responsive" alt="Jung und Alt" title="Jung und Alt" /></a>
 </div>
 
             
@@ -169,9 +219,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/plants/P0000272.html'>
-    <img alt='DSC_0393' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0393.JPG' title='DSC_0393' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/plants/P0000272.html">
+    <img src="/img/thumbs/DSC_0393.JPG" class="img-thumbnail center img-responsive" alt="DSC_0393" title="DSC_0393" /></a>
 </div>
 
             
@@ -184,19 +234,21 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/plants/P0000394.html'>
-    <img alt='IMG_0735' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_0735.JPG' title='IMG_0735' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/plants/P0000394.html">
+    <img src="/img/thumbs/IMG_0735.JPG" class="img-thumbnail center img-responsive" alt="IMG_0735" title="IMG_0735" /></a>
 </div>
 
             
         </div>
-        <a href='/en/photos/plants/'>View complete album</a>
+        <a href="/en/photos/plants/">View complete album</a>
     </div>
-</div><div class='album container'>
-    <div class='col-12'>
-        <h2><a href='/en/photos/spycam/'>Spycam</a></h2>
-        <div class='album-imgs preview'>
+</div>
+
+<div class="album container">
+    <div class="col-12">
+        <h2><a href="/en/photos/spycam/">Spycam</a></h2>
+        <div class="album-imgs preview">
             
             
 
@@ -207,9 +259,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000500.html'>
-    <img alt='SUNP0002' class='img-thumbnail center img-responsive' src='/img/thumbs/SUNP0002.JPG' title='SUNP0002' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000495.html">
+    <img src="/img/thumbs/PICT0410.JPG" class="img-thumbnail center img-responsive" alt="PICT0410" title="PICT0410" /></a>
 </div>
 
             
@@ -222,9 +274,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000495.html'>
-    <img alt='PICT0410' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0410.JPG' title='PICT0410' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000494.html">
+    <img src="/img/thumbs/PICT0386.JPG" class="img-thumbnail center img-responsive" alt="PICT0386" title="PICT0386" /></a>
 </div>
 
             
@@ -237,9 +289,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000494.html'>
-    <img alt='PICT0386' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0386.JPG' title='PICT0386' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000489.html">
+    <img src="/img/thumbs/PICT0238.JPG" class="img-thumbnail center img-responsive" alt="PICT0238" title="PICT0238" /></a>
 </div>
 
             
@@ -252,9 +304,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000489.html'>
-    <img alt='PICT0238' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0238.JPG' title='PICT0238' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000485.html">
+    <img src="/img/thumbs/PICT0135.JPG" class="img-thumbnail center img-responsive" alt="PICT0135" title="PICT0135" /></a>
 </div>
 
             
@@ -267,9 +319,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000485.html'>
-    <img alt='PICT0135' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0135.JPG' title='PICT0135' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000483.html">
+    <img src="/img/thumbs/PICT0068.JPG" class="img-thumbnail center img-responsive" alt="PICT0068" title="PICT0068" /></a>
 </div>
 
             
@@ -282,19 +334,21 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000484.html'>
-    <img alt='PICT0079_2' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0079_2.JPG' title='PICT0079_2' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000462.html">
+    <img src="/img/thumbs/MDGC0416.JPG" class="img-thumbnail center img-responsive" alt="MDGC0416" title="MDGC0416" /></a>
 </div>
 
             
         </div>
-        <a href='/en/photos/spycam/'>View complete album</a>
+        <a href="/en/photos/spycam/">View complete album</a>
     </div>
-</div><div class='album container'>
-    <div class='col-12'>
-        <h2><a href='/en/photos/recreation/'>Recreation</a></h2>
-        <div class='album-imgs preview'>
+</div>
+
+<div class="album container">
+    <div class="col-12">
+        <h2><a href="/en/photos/recreation/">Recreation</a></h2>
+        <div class="album-imgs preview">
             
             
 
@@ -305,9 +359,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/recreation/P0000293.html'>
-    <img alt='essen' class='img-thumbnail center img-responsive' src='/img/thumbs/essen.JPG' title='essen' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/recreation/P0000155.html">
+    <img src="/img/thumbs/leo_bad1.jpg" class="img-thumbnail center img-responsive" alt="leo_bad1" title="leo_bad1" /></a>
 </div>
 
             
@@ -320,9 +374,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/recreation/P0000155.html'>
-    <img alt='leo_bad1' class='img-thumbnail center img-responsive' src='/img/thumbs/leo_bad1.jpg' title='leo_bad1' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/recreation/P0000135.html">
+    <img src="/img/thumbs/zebra_bad2.jpg" class="img-thumbnail center img-responsive" alt="zebra_bad2" title="zebra_bad2" /></a>
 </div>
 
             
@@ -335,9 +389,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/recreation/P0000135.html'>
-    <img alt='zebra_bad2' class='img-thumbnail center img-responsive' src='/img/thumbs/zebra_bad2.jpg' title='zebra_bad2' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/recreation/P0000086.html">
+    <img src="/img/thumbs/esszimmer.jpg" class="img-thumbnail center img-responsive" alt="esszimmer" title="esszimmer" /></a>
 </div>
 
             
@@ -350,9 +404,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/recreation/P0000086.html'>
-    <img alt='esszimmer' class='img-thumbnail center img-responsive' src='/img/thumbs/esszimmer.jpg' title='esszimmer' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/recreation/P0000078.html">
+    <img src="/img/thumbs/sundowner.JPG" class="img-thumbnail center img-responsive" alt="sundowner" title="sundowner" /></a>
 </div>
 
             
@@ -365,9 +419,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/recreation/P0000078.html'>
-    <img alt='sundowner' class='img-thumbnail center img-responsive' src='/img/thumbs/sundowner.JPG' title='sundowner' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/recreation/P0000069.html">
+    <img src="/img/thumbs/zebra_bett1.jpg" class="img-thumbnail center img-responsive" alt="zebra_bett1" title="zebra_bett1" /></a>
 </div>
 
             
@@ -380,19 +434,21 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/recreation/P0000069.html'>
-    <img alt='zebra_bett1' class='img-thumbnail center img-responsive' src='/img/thumbs/zebra_bett1.jpg' title='zebra_bett1' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/recreation/P0000059.html">
+    <img src="/img/thumbs/leo_bett1.jpg" class="img-thumbnail center img-responsive" alt="leo_bett1" title="leo_bett1" /></a>
 </div>
 
             
         </div>
-        <a href='/en/photos/recreation/'>View complete album</a>
+        <a href="/en/photos/recreation/">View complete album</a>
     </div>
-</div><div class='album container'>
-    <div class='col-12'>
-        <h2><a href='/en/photos/animals/'>Animals</a></h2>
-        <div class='album-imgs preview'>
+</div>
+
+<div class="album container">
+    <div class="col-12">
+        <h2><a href="/en/photos/animals/">Animals</a></h2>
+        <div class="album-imgs preview">
             
             
 
@@ -403,9 +459,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/animals/P0000281.html'>
-    <img alt='PIC01140' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01140.JPG' title='PIC01140' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/animals/P0000281.html">
+    <img src="/img/thumbs/PIC01140.JPG" class="img-thumbnail center img-responsive" alt="PIC01140" title="PIC01140" /></a>
 </div>
 
             
@@ -418,9 +474,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/animals/P0000406.html'>
-    <img alt='IMGP3849' class='img-thumbnail center img-responsive' src='/img/thumbs/IMGP3849.JPG' title='IMGP3849' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/animals/P0000406.html">
+    <img src="/img/thumbs/IMGP3849.JPG" class="img-thumbnail center img-responsive" alt="IMGP3849" title="IMGP3849" /></a>
 </div>
 
             
@@ -433,9 +489,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/animals/P0000405.html'>
-    <img alt='IMGP3570' class='img-thumbnail center img-responsive' src='/img/thumbs/IMGP3570.JPG' title='IMGP3570' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/animals/P0000405.html">
+    <img src="/img/thumbs/IMGP3570.JPG" class="img-thumbnail center img-responsive" alt="IMGP3570" title="IMGP3570" /></a>
 </div>
 
             
@@ -448,9 +504,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/animals/P0000362.html'>
-    <img alt='_PHI0802' class='img-thumbnail center img-responsive' src='/img/thumbs/PHI0802.JPG' title='_PHI0802' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/animals/P0000362.html">
+    <img src="/img/thumbs/PHI0802.JPG" class="img-thumbnail center img-responsive" alt="_PHI0802" title="_PHI0802" /></a>
 </div>
 
             
@@ -463,9 +519,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/animals/P0000360.html'>
-    <img alt='_PHI0584' class='img-thumbnail center img-responsive' src='/img/thumbs/PHI0584.JPG' title='_PHI0584' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/animals/P0000360.html">
+    <img src="/img/thumbs/PHI0584.JPG" class="img-thumbnail center img-responsive" alt="_PHI0584" title="_PHI0584" /></a>
 </div>
 
             
@@ -478,19 +534,21 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/animals/P0000500.html'>
-    <img alt='SUNP0002' class='img-thumbnail center img-responsive' src='/img/thumbs/SUNP0002.JPG' title='SUNP0002' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/animals/P0000271.html">
+    <img src="/img/thumbs/IMG_1664.JPG" class="img-thumbnail center img-responsive" alt="IMG_1664" title="IMG_1664" /></a>
 </div>
 
             
         </div>
-        <a href='/en/photos/animals/'>View complete album</a>
+        <a href="/en/photos/animals/">View complete album</a>
     </div>
-</div><div class='album container'>
-    <div class='col-12'>
-        <h2><a href='/en/photos/hunting/'>Hunting</a></h2>
-        <div class='album-imgs preview'>
+</div>
+
+<div class="album container">
+    <div class="col-12">
+        <h2><a href="/en/photos/hunting/">Hunting</a></h2>
+        <div class="album-imgs preview">
             
             
 
@@ -501,9 +559,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/hunting/P0000247.html'>
-    <img alt='PIC01234' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01234.JPG' title='PIC01234' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/hunting/P0000247.html">
+    <img src="/img/thumbs/PIC01234.JPG" class="img-thumbnail center img-responsive" alt="PIC01234" title="PIC01234" /></a>
 </div>
 
             
@@ -516,9 +574,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/hunting/P0000281.html'>
-    <img alt='PIC01140' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01140.JPG' title='PIC01140' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/hunting/P0000281.html">
+    <img src="/img/thumbs/PIC01140.JPG" class="img-thumbnail center img-responsive" alt="PIC01140" title="PIC01140" /></a>
 </div>
 
             
@@ -531,9 +589,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/hunting/P0000244.html'>
-    <img alt='S7305275' class='img-thumbnail center img-responsive' src='/img/thumbs/S7305275.JPG' title='S7305275' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/hunting/P0000244.html">
+    <img src="/img/thumbs/S7305275.JPG" class="img-thumbnail center img-responsive" alt="S7305275" title="S7305275" /></a>
 </div>
 
             
@@ -546,9 +604,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/hunting/P0000403.html'>
-    <img alt='IMGP3285' class='img-thumbnail center img-responsive' src='/img/thumbs/IMGP3285.JPG' title='IMGP3285' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/hunting/P0000403.html">
+    <img src="/img/thumbs/IMGP3285.JPG" class="img-thumbnail center img-responsive" alt="IMGP3285" title="IMGP3285" /></a>
 </div>
 
             
@@ -561,9 +619,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/hunting/P0000279.html'>
-    <img alt='IMG_1876' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_1876.JPG' title='IMG_1876' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/hunting/P0000283.html">
+    <img src="/img/thumbs/DSC_0646.JPG" class="img-thumbnail center img-responsive" alt="DSC_0646" title="DSC_0646" /></a>
 </div>
 
             
@@ -576,19 +634,21 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/hunting/P0000261.html'>
-    <img alt='IMG_1877' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_1877.JPG' title='IMG_1877' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/hunting/P0000266.html">
+    <img src="/img/thumbs/DSC_0446.JPG" class="img-thumbnail center img-responsive" alt="DSC_0446" title="DSC_0446" /></a>
 </div>
 
             
         </div>
-        <a href='/en/photos/hunting/'>View complete album</a>
+        <a href="/en/photos/hunting/">View complete album</a>
     </div>
-</div><div class='album container'>
-    <div class='col-12'>
-        <h2><a href='/en/photos/action/'>Action</a></h2>
-        <div class='album-imgs preview'>
+</div>
+
+<div class="album container">
+    <div class="col-12">
+        <h2><a href="/en/photos/action/">Action</a></h2>
+        <div class="album-imgs preview">
             
             
 
@@ -599,9 +659,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/action/P0000010.html'>
-    <img alt='Puddle' class='img-thumbnail center img-responsive' src='/img/thumbs/wasserloch.jpg' title='Puddle' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/action/P0000010.html">
+    <img src="/img/thumbs/wasserloch.jpg" class="img-thumbnail center img-responsive" alt="Puddle" title="Puddle" /></a>
 </div>
 
             
@@ -614,9 +674,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/action/P0000042.html'>
-    <img alt='Christian_2.Springbock_3' class='img-thumbnail center img-responsive' src='/img/thumbs/Christian_2.Springbock_3.JPG' title='Christian_2.Springbock_3' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/action/P0000191.html">
+    <img src="/img/thumbs/duenen.jpg" class="img-thumbnail center img-responsive" alt="duenen" title="duenen" /></a>
 </div>
 
             
@@ -629,9 +689,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/action/P0000191.html'>
-    <img alt='duenen' class='img-thumbnail center img-responsive' src='/img/thumbs/duenen.jpg' title='duenen' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/action/P0000041.html">
+    <img src="/img/thumbs/dune_ride.jpg" class="img-thumbnail center img-responsive" alt="dune_ride" title="dune_ride" /></a>
 </div>
 
             
@@ -644,9 +704,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/action/P0000104.html'>
-    <img alt='4x4' class='img-thumbnail center img-responsive' src='/img/thumbs/4x4.jpg' title='4x4' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/action/P0000030.html">
+    <img src="/img/thumbs/geschafft.jpg" class="img-thumbnail center img-responsive" alt="geschafft" title="geschafft" /></a>
 </div>
 
             
@@ -659,34 +719,21 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/action/P0000043.html'>
-    <img alt='4x4_2' class='img-thumbnail center img-responsive' src='/img/thumbs/4x4_2.jpg' title='4x4_2' /></a>
-</div>
-
-            
-            
-
-
-
-
- 
-
-
-
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/action/P0000041.html'>
-    <img alt='dune_ride' class='img-thumbnail center img-responsive' src='/img/thumbs/dune_ride.jpg' title='dune_ride' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/action/P0000004.html">
+    <img src="/img/thumbs/klettern.jpg" class="img-thumbnail center img-responsive" alt="klettern" title="klettern" /></a>
 </div>
 
             
         </div>
-        <a href='/en/photos/action/'>View complete album</a>
+        <a href="/en/photos/action/">View complete album</a>
     </div>
-</div><div class='album container'>
-    <div class='col-12'>
-        <h2><a href='/en/photos/all/'>All</a></h2>
-        <div class='album-imgs preview'>
+</div>
+
+<div class="album container">
+    <div class="col-12">
+        <h2><a href="/en/photos/all/">All</a></h2>
+        <div class="album-imgs preview">
             
             
 
@@ -695,9 +742,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/all/P0000197.html'>
-    <img alt='Hottentotten Church' class='img-thumbnail center img-responsive' src='/img/thumbs/hottentottenkirche2.jpg' title='Hottentotten Church' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/all/P0000197.html">
+    <img src="/img/thumbs/hottentottenkirche2.jpg" class="img-thumbnail center img-responsive" alt="Hottentotten Church" title="Hottentotten Church" /></a>
 </div>
 
             
@@ -710,9 +757,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/all/P0000284.html'>
-    <img alt='P1000515' class='img-thumbnail center img-responsive' src='/img/thumbs/P1000515.JPG' title='P1000515' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/all/P0000284.html">
+    <img src="/img/thumbs/P1000515.JPG" class="img-thumbnail center img-responsive" alt="P1000515" title="P1000515" /></a>
 </div>
 
             
@@ -725,9 +772,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/all/P0000242.html'>
-    <img alt='Euphoribia Monteroi' class='img-thumbnail center img-responsive' src='/img/thumbs/P1000516.JPG' title='Euphoribia Monteroi' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/all/P0000242.html">
+    <img src="/img/thumbs/P1000516.JPG" class="img-thumbnail center img-responsive" alt="Euphoribia Monteroi" title="Euphoribia Monteroi" /></a>
 </div>
 
             
@@ -740,9 +787,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/all/P0000282.html'>
-    <img alt='PIC01400' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01400.JPG' title='PIC01400' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/all/P0000247.html">
+    <img src="/img/thumbs/PIC01234.JPG" class="img-thumbnail center img-responsive" alt="PIC01234" title="PIC01234" /></a>
 </div>
 
             
@@ -755,9 +802,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/all/P0000247.html'>
-    <img alt='PIC01234' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01234.JPG' title='PIC01234' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/all/P0000281.html">
+    <img src="/img/thumbs/PIC01140.JPG" class="img-thumbnail center img-responsive" alt="PIC01140" title="PIC01140" /></a>
 </div>
 
             
@@ -770,19 +817,21 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/all/P0000281.html'>
-    <img alt='PIC01140' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01140.JPG' title='PIC01140' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/all/P0000244.html">
+    <img src="/img/thumbs/S7305275.JPG" class="img-thumbnail center img-responsive" alt="S7305275" title="S7305275" /></a>
 </div>
 
             
         </div>
-        <a href='/en/photos/all/'>View complete album</a>
+        <a href="/en/photos/all/">View complete album</a>
     </div>
-</div><div class='album container'>
-    <div class='col-12'>
-        <h2><a href='/en/photos/landscape/'>Landscape</a></h2>
-        <div class='album-imgs preview'>
+</div>
+
+<div class="album container">
+    <div class="col-12">
+        <h2><a href="/en/photos/landscape/">Landscape</a></h2>
+        <div class="album-imgs preview">
             
             
 
@@ -791,9 +840,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/landscape/P0000197.html'>
-    <img alt='Hottentotten Church' class='img-thumbnail center img-responsive' src='/img/thumbs/hottentottenkirche2.jpg' title='Hottentotten Church' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/landscape/P0000197.html">
+    <img src="/img/thumbs/hottentottenkirche2.jpg" class="img-thumbnail center img-responsive" alt="Hottentotten Church" title="Hottentotten Church" /></a>
 </div>
 
             
@@ -806,9 +855,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/landscape/P0000282.html'>
-    <img alt='PIC01400' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01400.JPG' title='PIC01400' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/landscape/P0000406.html">
+    <img src="/img/thumbs/IMGP3849.JPG" class="img-thumbnail center img-responsive" alt="IMGP3849" title="IMGP3849" /></a>
 </div>
 
             
@@ -821,9 +870,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/landscape/P0000406.html'>
-    <img alt='IMGP3849' class='img-thumbnail center img-responsive' src='/img/thumbs/IMGP3849.JPG' title='IMGP3849' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/landscape/P0000405.html">
+    <img src="/img/thumbs/IMGP3570.JPG" class="img-thumbnail center img-responsive" alt="IMGP3570" title="IMGP3570" /></a>
 </div>
 
             
@@ -836,9 +885,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/landscape/P0000405.html'>
-    <img alt='IMGP3570' class='img-thumbnail center img-responsive' src='/img/thumbs/IMGP3570.JPG' title='IMGP3570' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/landscape/P0000269.html">
+    <img src="/img/thumbs/IMG_6889 Kopie.jpg" class="img-thumbnail center img-responsive" alt="IMG_6889 Kopie" title="IMG_6889 Kopie" /></a>
 </div>
 
             
@@ -851,9 +900,9 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/landscape/P0000269.html'>
-    <img alt='IMG_6889 Kopie' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_6889 Kopie.jpg' title='IMG_6889 Kopie' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/landscape/P0000272.html">
+    <img src="/img/thumbs/DSC_0393.JPG" class="img-thumbnail center img-responsive" alt="DSC_0393" title="DSC_0393" /></a>
 </div>
 
             
@@ -866,37 +915,38 @@
 
 
 
-<div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/landscape/P0000272.html'>
-    <img alt='DSC_0393' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0393.JPG' title='DSC_0393' /></a>
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/landscape/P0000267.html">
+    <img src="/img/thumbs/DSC_0524.JPG" class="img-thumbnail center img-responsive" alt="DSC_0524" title="DSC_0524" /></a>
 </div>
 
             
         </div>
-        <a href='/en/photos/landscape/'>View complete album</a>
+        <a href="/en/photos/landscape/">View complete album</a>
     </div>
 </div>
-          <footer>
-            <p class="pull-right">&copy; Olaf 2013</p>
-          </footer>
-        </div>
+
+
+      <!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p> -->
+      <!-- <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p> -->
+    </div>
+    <!-- End page content -->
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">
+          
+            <a href="/en/imprint.html" class="footerlink">Imprint</a>
+          
+          <span class="pull-right">&copy; Olaf 2014</span>
+        </p>
+      </div>
     </div>
 
-    <!-- JS and analytics only. -->
+
     <!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- <script src="./js/jquery.js"></script> -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-<script src="/js/bootstrap.js"></script>
-
-<script src="/js/holder.js"></script>
-
-<script src="/js/application.js"></script>
-
-<!-- Analytics
-================================================== -->
-
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>

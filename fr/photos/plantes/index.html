@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
 
-<title>
-            
-            
-            Wilsonfontein - Hunting Safaris en Namibie / Afrique 
-        </title>
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
 
-<!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- Documentation extras -->
-<link href="/css/wilson.css" rel="stylesheet">
-<!-- <link href="/css/pygments-manni.css" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <!-- <link href="/css/sticky-footer-navbar.css" rel="stylesheet"> -->
+    <link href="/css/wilson.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="./js/html5shiv.js"></script>
-  <script src="./js/respond.min.js"></script>
-<![endif]-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-<!-- Favicons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./ico/apple-touch-icon-72-precomposed.png">
-                <link rel="apple-touch-icon-precomposed" href="./ico/apple-touch-icon-57-precomposed.png">
-                               <link rel="shortcut icon" href="./ico/favicon.png">
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-146052-10']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-    <!-- Place anything custom after this. -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body class="">
 
-    <!-- Docs master nav -->
-    <div class="navbar navbar-inverse bs-docs-nav">
+  <body>
+
+    <!-- Fixed navbar -->
+<!--     <div class="navbar navbar-inverse bs-docs-nav">
       <div class="container">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        </button>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
         <div class="nav-collapse collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+              <li class="active"><a href="/fr/photos/">Photos</a></li>
+            
+              <li ><a href="/fr/tarifs.html">Tarifs</a></li>
+            
+              <li ><a href="/fr/contact.html">Contact</a></li>
+            
+              <li ><a href="/fr/hommage.html">Hommage</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> fr <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                
+                  <li><a href="/en/photos/">en</a></li>
+                
+                  <li><a href="/de/fotos/">de</a></li>
+                
+                  <li><a href="/fr/photos/">fr</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="nav navbar-nav ">
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="navbar navbar-default " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Project name</a> -->
+        </div>
+        <div class="navbar-header">
           <ul class="nav navbar-nav">
             
               <li ><a href="/fr/index.html">Home</a></li>
@@ -64,6 +86,16 @@
             
               <li ><a href="/fr/detente.html">Détente</a></li>
             
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+            
+            
               <li class="active"><a href="/fr/photos/">Photos</a></li>
             
               <li ><a href="/fr/tarifs.html">Tarifs</a></li>
@@ -72,215 +104,340 @@
             
               <li ><a href="/fr/hommage.html">Hommage</a></li>
             
-              <li ><a href="/fr/imprint.html">Imprint</a></li>
-            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> fr <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 
-                 <li><a href="/en/photos/">en</a></li>
+                  <li><a href="/en/photos/" class="en">en</a></li>
                 
-                 <li><a href="/de/fotos/">de</a></li>
+                  <li><a href="/de/fotos/" class="de">de</a></li>
                 
-                 <li><a href="/fr/photos/">fr</a></li>
+                  <li><a href="/fr/photos/" class="fr">fr</a></li>
                 
               </ul>
             </li>
+            <li class="dropdown dropdown-split">
+              <a href="#" class="foo">Dropdown</a><a href="#" class="dropdown-toggle bar" data-toggle="dropdown"><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li>
+            
           </ul>
         </div>
-<!--         <ul class="nav navbar-nav ">
-        </ul> -->
       </div>
     </div>
 
-    <!-- Page content of course! -->
-    <div class="row">
+<!--     <div class="row">
         <div class="col-12 col-lg-8 col-offset-2">
-          <h1 class="big">Photos <small>Plantes</small></h1>
-          <div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000005.html'>
-    <img alt='kokerwald' class='img-thumbnail center img-responsive' src='/img/thumbs/kokerwald.jpg' title='kokerwald' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000006.html'>
-    <img alt='zuckerhut' class='img-thumbnail center img-responsive' src='/img/thumbs/zuckerhut.jpg' title='zuckerhut' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000009.html'>
-    <img alt='ingoposten' class='img-thumbnail center img-responsive' src='/img/thumbs/ingoposten.jpg' title='ingoposten' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000017.html'>
-    <img alt='baum_im_baum_1' class='img-thumbnail center img-responsive' src='/img/thumbs/baum_im_baum_1.jpg' title='baum_im_baum_1' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000020.html'>
-    <img alt='bank' class='img-thumbnail center img-responsive' src='/img/thumbs/bank.jpg' title='bank' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000024.html'>
-    <img alt='Bird_watching' class='img-thumbnail center img-responsive' src='/img/thumbs/Bird_watching.jpg' title='Bird_watching' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000025.html'>
-    <img alt='bergpad' class='img-thumbnail center img-responsive' src='/img/thumbs/bergpad.jpg' title='bergpad' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000031.html'>
-    <img alt='Camelthorntree' class='img-thumbnail center img-responsive' src='/img/thumbs/Camelthorntree.jpg' title='Camelthorntree' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000034.html'>
-    <img alt='wasserloch_am_feigenbaum' class='img-thumbnail center img-responsive' src='/img/thumbs/wasserloch_am_feigenbaum.jpg' title='wasserloch_am_feigenbaum' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000037.html'>
-    <img alt='theresia_oben' class='img-thumbnail center img-responsive' src='/img/thumbs/theresia_oben.jpg' title='theresia_oben' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000051.html'>
-    <img alt='Bischhoffshut_Sunset' class='img-thumbnail center img-responsive' src='/img/thumbs/Bischhoffshut_Sunset.jpg' title='Bischhoffshut_Sunset' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000057.html'>
-    <img alt='regen' class='img-thumbnail center img-responsive' src='/img/thumbs/regen.jpg' title='regen' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000064.html'>
-    <img alt='rooik_bei_zeichnung' class='img-thumbnail center img-responsive' src='/img/thumbs/rooik_bei_zeichnung.jpg' title='rooik_bei_zeichnung' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000068.html'>
-    <img alt='elefantenberg4' class='img-thumbnail center img-responsive' src='/img/thumbs/elefantenberg4.jpg' title='elefantenberg4' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000080.html'>
-    <img alt='moringa' class='img-thumbnail center img-responsive' src='/img/thumbs/moringa.jpg' title='moringa' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000087.html'>
-    <img alt='kuppe' class='img-thumbnail center img-responsive' src='/img/thumbs/kuppe.jpg' title='kuppe' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000088.html'>
-    <img alt='oben_hinter_klippenbar' class='img-thumbnail center img-responsive' src='/img/thumbs/oben_hinter_klippenbar.jpg' title='oben_hinter_klippenbar' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000092.html'>
-    <img alt='basterkameldorn' class='img-thumbnail center img-responsive' src='/img/thumbs/basterkameldorn.jpg' title='basterkameldorn' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000098.html'>
-    <img alt='camelman' class='img-thumbnail center img-responsive' src='/img/thumbs/camelman.jpg' title='camelman' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000102.html'>
-    <img alt='bank_moringa' class='img-thumbnail center img-responsive' src='/img/thumbs/bank_moringa.jpg' title='bank_moringa' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000116.html'>
-    <img alt='kurve_bei_bank' class='img-thumbnail center img-responsive' src='/img/thumbs/kurve_bei_bank.jpg' title='kurve_bei_bank' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000120.html'>
-    <img alt='alter_baum' class='img-thumbnail center img-responsive' src='/img/thumbs/alter_baum.jpg' title='alter_baum' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000131.html'>
-    <img alt='koker_bluete' class='img-thumbnail center img-responsive' src='/img/thumbs/koker_bluete.jpg' title='koker_bluete' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000134.html'>
-    <img alt='achasquelle_mit_baum' class='img-thumbnail center img-responsive' src='/img/thumbs/achasquelle_mit_baum.jpg' title='achasquelle_mit_baum' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000144.html'>
-    <img alt='euphorbia_bluete' class='img-thumbnail center img-responsive' src='/img/thumbs/euphorbia_bluete.jpg' title='euphorbia_bluete' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000156.html'>
-    <img alt='bergpass' class='img-thumbnail center img-responsive' src='/img/thumbs/bergpass.jpg' title='bergpass' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000162.html'>
-    <img alt='teufelskralle' class='img-thumbnail center img-responsive' src='/img/thumbs/teufelskralle.jpg' title='teufelskralle' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000165.html'>
-    <img alt='hammer_revier' class='img-thumbnail center img-responsive' src='/img/thumbs/hammer_revier.jpg' title='hammer_revier' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000167.html'>
-    <img alt='regenkaktus' class='img-thumbnail center img-responsive' src='/img/thumbs/regenkaktus.jpg' title='regenkaktus' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000185.html'>
-    <img alt='weite' class='img-thumbnail center img-responsive' src='/img/thumbs/weite.jpg' title='weite' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000190.html'>
-    <img alt='Elefantenfuss' class='img-thumbnail center img-responsive' src='/img/thumbs/Elefantenfuss.jpg' title='Elefantenfuss' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000196.html'>
-    <img alt='blumen' class='img-thumbnail center img-responsive' src='/img/thumbs/blumen.jpg' title='blumen' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000197.html'>
-    <img alt='Hottentotten Church' class='img-thumbnail center img-responsive' src='/img/thumbs/hottentottenkirche2.jpg' title='Hottentotten Church' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000204.html'>
-    <img alt='elefantenberg2' class='img-thumbnail center img-responsive' src='/img/thumbs/elefantenberg2.jpg' title='elefantenberg2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000206.html'>
-    <img alt='Hinter_Kirche_Baum' class='img-thumbnail center img-responsive' src='/img/thumbs/Hinter_Kirche_Baum.jpg' title='Hinter_Kirche_Baum' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000210.html'>
-    <img alt='bank2' class='img-thumbnail center img-responsive' src='/img/thumbs/bank2.jpg' title='bank2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000218.html'>
-    <img alt='elefantenberg' class='img-thumbnail center img-responsive' src='/img/thumbs/elefantenberg.jpg' title='elefantenberg' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000242.html'>
-    <img alt='Euphoribia Monteroi' class='img-thumbnail center img-responsive' src='/img/thumbs/P1000516.JPG' title='Euphoribia Monteroi' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000246.html'>
-    <img alt='Farm 1 schoene Photos 047' class='img-thumbnail center img-responsive' src='/img/thumbs/Farm 1 schoene Photos 047.jpg' title='Farm 1 schoene Photos 047' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000259.html'>
-    <img alt='Farm 1 schoene Photos 006' class='img-thumbnail center img-responsive' src='/img/thumbs/Farm 1 schoene Photos 006.jpg' title='Farm 1 schoene Photos 006' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000272.html'>
-    <img alt='DSC_0393' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0393.JPG' title='DSC_0393' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000273.html'>
-    <img alt='DSC_0159' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0159.jpg' title='DSC_0159' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000274.html'>
-    <img alt='Farm 1 schoene Photos 020' class='img-thumbnail center img-responsive' src='/img/thumbs/Farm 1 schoene Photos 020.jpg' title='Farm 1 schoene Photos 020' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000284.html'>
-    <img alt='P1000515' class='img-thumbnail center img-responsive' src='/img/thumbs/P1000515.JPG' title='P1000515' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000286.html'>
-    <img alt='Bank Baum Kurve' class='img-thumbnail center img-responsive' src='/img/thumbs/Bank Baum Kurve.jpg' title='Bank Baum Kurve' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000287.html'>
-    <img alt='Jung und Alt' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_3112.JPG' title='Jung und Alt' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000321.html'>
-    <img alt='DSCN4541' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4541.JPG' title='DSCN4541' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000337.html'>
-    <img alt='IMG_1288' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_1288.jpg' title='IMG_1288' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000357.html'>
-    <img alt='_MG_5682' class='img-thumbnail center img-responsive' src='/img/thumbs/MG_5682.JPG' title='_MG_5682' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000373.html'>
-    <img alt='DSC01442' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC01442.JPG' title='DSC01442' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000376.html'>
-    <img alt='DSC01521' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC01521.JPG' title='DSC01521' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000394.html'>
-    <img alt='IMG_0735' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_0735.JPG' title='IMG_0735' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000396.html'>
-    <img alt='IMG_0849' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_0849.jpg' title='IMG_0849' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/plantes/P0000399.html'>
-    <img alt='IMG_6520' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_6520.JPG' title='IMG_6520' /></a>
-</div>
-          <footer>
-            <p class="pull-right">&copy; Olaf 2013</p>
-          </footer>
         </div>
+    </div> -->
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Photos <small>Plantes</small></h1>
+        <!-- <h1>Sticky footer with fixed navbar</h1> -->
+      </div>
+      
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000005.html">
+    <img src="/img/thumbs/kokerwald.jpg" class="img-thumbnail center img-responsive" alt="kokerwald" title="kokerwald" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000006.html">
+    <img src="/img/thumbs/zuckerhut.jpg" class="img-thumbnail center img-responsive" alt="zuckerhut" title="zuckerhut" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000009.html">
+    <img src="/img/thumbs/ingoposten.jpg" class="img-thumbnail center img-responsive" alt="ingoposten" title="ingoposten" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000017.html">
+    <img src="/img/thumbs/baum_im_baum_1.jpg" class="img-thumbnail center img-responsive" alt="baum_im_baum_1" title="baum_im_baum_1" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000020.html">
+    <img src="/img/thumbs/bank.jpg" class="img-thumbnail center img-responsive" alt="bank" title="bank" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000024.html">
+    <img src="/img/thumbs/Bird_watching.jpg" class="img-thumbnail center img-responsive" alt="Bird_watching" title="Bird_watching" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000025.html">
+    <img src="/img/thumbs/bergpad.jpg" class="img-thumbnail center img-responsive" alt="bergpad" title="bergpad" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000031.html">
+    <img src="/img/thumbs/Camelthorntree.jpg" class="img-thumbnail center img-responsive" alt="Camelthorntree" title="Camelthorntree" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000034.html">
+    <img src="/img/thumbs/wasserloch_am_feigenbaum.jpg" class="img-thumbnail center img-responsive" alt="wasserloch_am_feigenbaum" title="wasserloch_am_feigenbaum" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000037.html">
+    <img src="/img/thumbs/theresia_oben.jpg" class="img-thumbnail center img-responsive" alt="theresia_oben" title="theresia_oben" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000051.html">
+    <img src="/img/thumbs/Bischhoffshut_Sunset.jpg" class="img-thumbnail center img-responsive" alt="Bischhoffshut_Sunset" title="Bischhoffshut_Sunset" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000057.html">
+    <img src="/img/thumbs/regen.jpg" class="img-thumbnail center img-responsive" alt="regen" title="regen" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000064.html">
+    <img src="/img/thumbs/rooik_bei_zeichnung.jpg" class="img-thumbnail center img-responsive" alt="rooik_bei_zeichnung" title="rooik_bei_zeichnung" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000068.html">
+    <img src="/img/thumbs/elefantenberg4.jpg" class="img-thumbnail center img-responsive" alt="elefantenberg4" title="elefantenberg4" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000080.html">
+    <img src="/img/thumbs/moringa.jpg" class="img-thumbnail center img-responsive" alt="moringa" title="moringa" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000087.html">
+    <img src="/img/thumbs/kuppe.jpg" class="img-thumbnail center img-responsive" alt="kuppe" title="kuppe" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000088.html">
+    <img src="/img/thumbs/oben_hinter_klippenbar.jpg" class="img-thumbnail center img-responsive" alt="oben_hinter_klippenbar" title="oben_hinter_klippenbar" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000092.html">
+    <img src="/img/thumbs/basterkameldorn.jpg" class="img-thumbnail center img-responsive" alt="basterkameldorn" title="basterkameldorn" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000098.html">
+    <img src="/img/thumbs/camelman.jpg" class="img-thumbnail center img-responsive" alt="camelman" title="camelman" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000102.html">
+    <img src="/img/thumbs/bank_moringa.jpg" class="img-thumbnail center img-responsive" alt="bank_moringa" title="bank_moringa" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000116.html">
+    <img src="/img/thumbs/kurve_bei_bank.jpg" class="img-thumbnail center img-responsive" alt="kurve_bei_bank" title="kurve_bei_bank" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000120.html">
+    <img src="/img/thumbs/alter_baum.jpg" class="img-thumbnail center img-responsive" alt="alter_baum" title="alter_baum" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000131.html">
+    <img src="/img/thumbs/koker_bluete.jpg" class="img-thumbnail center img-responsive" alt="koker_bluete" title="koker_bluete" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000134.html">
+    <img src="/img/thumbs/achasquelle_mit_baum.jpg" class="img-thumbnail center img-responsive" alt="achasquelle_mit_baum" title="achasquelle_mit_baum" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000144.html">
+    <img src="/img/thumbs/euphorbia_bluete.jpg" class="img-thumbnail center img-responsive" alt="euphorbia_bluete" title="euphorbia_bluete" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000156.html">
+    <img src="/img/thumbs/bergpass.jpg" class="img-thumbnail center img-responsive" alt="bergpass" title="bergpass" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000162.html">
+    <img src="/img/thumbs/teufelskralle.jpg" class="img-thumbnail center img-responsive" alt="teufelskralle" title="teufelskralle" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000165.html">
+    <img src="/img/thumbs/hammer_revier.jpg" class="img-thumbnail center img-responsive" alt="hammer_revier" title="hammer_revier" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000167.html">
+    <img src="/img/thumbs/regenkaktus.jpg" class="img-thumbnail center img-responsive" alt="regenkaktus" title="regenkaktus" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000185.html">
+    <img src="/img/thumbs/weite.jpg" class="img-thumbnail center img-responsive" alt="weite" title="weite" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000190.html">
+    <img src="/img/thumbs/Elefantenfuss.jpg" class="img-thumbnail center img-responsive" alt="Elefantenfuss" title="Elefantenfuss" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000196.html">
+    <img src="/img/thumbs/blumen.jpg" class="img-thumbnail center img-responsive" alt="blumen" title="blumen" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000197.html">
+    <img src="/img/thumbs/hottentottenkirche2.jpg" class="img-thumbnail center img-responsive" alt="Hottentotten Church" title="Hottentotten Church" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000204.html">
+    <img src="/img/thumbs/elefantenberg2.jpg" class="img-thumbnail center img-responsive" alt="elefantenberg2" title="elefantenberg2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000206.html">
+    <img src="/img/thumbs/Hinter_Kirche_Baum.jpg" class="img-thumbnail center img-responsive" alt="Hinter_Kirche_Baum" title="Hinter_Kirche_Baum" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000210.html">
+    <img src="/img/thumbs/bank2.jpg" class="img-thumbnail center img-responsive" alt="bank2" title="bank2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000218.html">
+    <img src="/img/thumbs/elefantenberg.jpg" class="img-thumbnail center img-responsive" alt="elefantenberg" title="elefantenberg" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000242.html">
+    <img src="/img/thumbs/P1000516.JPG" class="img-thumbnail center img-responsive" alt="Euphoribia Monteroi" title="Euphoribia Monteroi" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000246.html">
+    <img src="/img/thumbs/Farm 1 schoene Photos 047.jpg" class="img-thumbnail center img-responsive" alt="Farm 1 schoene Photos 047" title="Farm 1 schoene Photos 047" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000259.html">
+    <img src="/img/thumbs/Farm 1 schoene Photos 006.jpg" class="img-thumbnail center img-responsive" alt="Farm 1 schoene Photos 006" title="Farm 1 schoene Photos 006" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000272.html">
+    <img src="/img/thumbs/DSC_0393.JPG" class="img-thumbnail center img-responsive" alt="DSC_0393" title="DSC_0393" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000273.html">
+    <img src="/img/thumbs/DSC_0159.jpg" class="img-thumbnail center img-responsive" alt="DSC_0159" title="DSC_0159" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000274.html">
+    <img src="/img/thumbs/Farm 1 schoene Photos 020.jpg" class="img-thumbnail center img-responsive" alt="Farm 1 schoene Photos 020" title="Farm 1 schoene Photos 020" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000284.html">
+    <img src="/img/thumbs/P1000515.JPG" class="img-thumbnail center img-responsive" alt="P1000515" title="P1000515" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000286.html">
+    <img src="/img/thumbs/Bank Baum Kurve.jpg" class="img-thumbnail center img-responsive" alt="Bank Baum Kurve" title="Bank Baum Kurve" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000287.html">
+    <img src="/img/thumbs/IMG_3112.JPG" class="img-thumbnail center img-responsive" alt="Jung und Alt" title="Jung und Alt" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000321.html">
+    <img src="/img/thumbs/DSCN4541.JPG" class="img-thumbnail center img-responsive" alt="DSCN4541" title="DSCN4541" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000337.html">
+    <img src="/img/thumbs/IMG_1288.jpg" class="img-thumbnail center img-responsive" alt="IMG_1288" title="IMG_1288" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000357.html">
+    <img src="/img/thumbs/MG_5682.JPG" class="img-thumbnail center img-responsive" alt="_MG_5682" title="_MG_5682" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000373.html">
+    <img src="/img/thumbs/DSC01442.JPG" class="img-thumbnail center img-responsive" alt="DSC01442" title="DSC01442" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000376.html">
+    <img src="/img/thumbs/DSC01521.JPG" class="img-thumbnail center img-responsive" alt="DSC01521" title="DSC01521" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000394.html">
+    <img src="/img/thumbs/IMG_0735.JPG" class="img-thumbnail center img-responsive" alt="IMG_0735" title="IMG_0735" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000396.html">
+    <img src="/img/thumbs/IMG_0849.jpg" class="img-thumbnail center img-responsive" alt="IMG_0849" title="IMG_0849" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/plantes/P0000399.html">
+    <img src="/img/thumbs/IMG_6520.JPG" class="img-thumbnail center img-responsive" alt="IMG_6520" title="IMG_6520" /></a>
+</div>
+
+
+      <!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p> -->
+      <!-- <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p> -->
+    </div>
+    <!-- End page content -->
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">
+          
+            <a href="/fr/imprint.html" class="footerlink">Imprint</a>
+          
+          <span class="pull-right">&copy; Olaf 2014</span>
+        </p>
+      </div>
     </div>
 
-    <!-- JS and analytics only. -->
+
     <!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- <script src="./js/jquery.js"></script> -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-<script src="/js/bootstrap.js"></script>
-
-<script src="/js/holder.js"></script>
-
-<script src="/js/application.js"></script>
-
-<!-- Analytics
-================================================== -->
-
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>

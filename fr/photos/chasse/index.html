@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
 
-<title>
-            
-            
-            Wilsonfontein - Hunting Safaris en Namibie / Afrique 
-        </title>
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
 
-<!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- Documentation extras -->
-<link href="/css/wilson.css" rel="stylesheet">
-<!-- <link href="/css/pygments-manni.css" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <!-- <link href="/css/sticky-footer-navbar.css" rel="stylesheet"> -->
+    <link href="/css/wilson.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="./js/html5shiv.js"></script>
-  <script src="./js/respond.min.js"></script>
-<![endif]-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-<!-- Favicons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./ico/apple-touch-icon-72-precomposed.png">
-                <link rel="apple-touch-icon-precomposed" href="./ico/apple-touch-icon-57-precomposed.png">
-                               <link rel="shortcut icon" href="./ico/favicon.png">
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-146052-10']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-    <!-- Place anything custom after this. -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body class="">
 
-    <!-- Docs master nav -->
-    <div class="navbar navbar-inverse bs-docs-nav">
+  <body>
+
+    <!-- Fixed navbar -->
+<!--     <div class="navbar navbar-inverse bs-docs-nav">
       <div class="container">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        </button>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
         <div class="nav-collapse collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+              <li class="active"><a href="/fr/photos/">Photos</a></li>
+            
+              <li ><a href="/fr/tarifs.html">Tarifs</a></li>
+            
+              <li ><a href="/fr/contact.html">Contact</a></li>
+            
+              <li ><a href="/fr/hommage.html">Hommage</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> fr <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                
+                  <li><a href="/en/photos/">en</a></li>
+                
+                  <li><a href="/de/fotos/">de</a></li>
+                
+                  <li><a href="/fr/photos/">fr</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="nav navbar-nav ">
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="navbar navbar-default " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Project name</a> -->
+        </div>
+        <div class="navbar-header">
           <ul class="nav navbar-nav">
             
               <li ><a href="/fr/index.html">Home</a></li>
@@ -64,6 +86,16 @@
             
               <li ><a href="/fr/detente.html">Détente</a></li>
             
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+            
+            
               <li class="active"><a href="/fr/photos/">Photos</a></li>
             
               <li ><a href="/fr/tarifs.html">Tarifs</a></li>
@@ -72,359 +104,580 @@
             
               <li ><a href="/fr/hommage.html">Hommage</a></li>
             
-              <li ><a href="/fr/imprint.html">Imprint</a></li>
-            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> fr <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 
-                 <li><a href="/en/photos/">en</a></li>
+                  <li><a href="/en/photos/" class="en">en</a></li>
                 
-                 <li><a href="/de/fotos/">de</a></li>
+                  <li><a href="/de/fotos/" class="de">de</a></li>
                 
-                 <li><a href="/fr/photos/">fr</a></li>
+                  <li><a href="/fr/photos/" class="fr">fr</a></li>
                 
               </ul>
             </li>
+            <li class="dropdown dropdown-split">
+              <a href="#" class="foo">Dropdown</a><a href="#" class="dropdown-toggle bar" data-toggle="dropdown"><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li>
+            
           </ul>
         </div>
-<!--         <ul class="nav navbar-nav ">
-        </ul> -->
       </div>
     </div>
 
-    <!-- Page content of course! -->
-    <div class="row">
+<!--     <div class="row">
         <div class="col-12 col-lg-8 col-offset-2">
-          <h1 class="big">Photos <small>Chasse</small></h1>
-          <div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000014.html'>
-    <img alt='springbock' class='img-thumbnail center img-responsive' src='/img/thumbs/springbock.jpg' title='springbock' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000021.html'>
-    <img alt='2006_(1939)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1939).JPG' title='2006_(1939)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000032.html'>
-    <img alt='2006_(1963)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1963).JPG' title='2006_(1963)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000035.html'>
-    <img alt='oryx_zuckerhut' class='img-thumbnail center img-responsive' src='/img/thumbs/oryx_zuckerhut.jpg' title='oryx_zuckerhut' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000040.html'>
-    <img alt='2006_(2327)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2327).JPG' title='2006_(2327)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000042.html'>
-    <img alt='Christian_2.Springbock_3' class='img-thumbnail center img-responsive' src='/img/thumbs/Christian_2.Springbock_3.JPG' title='Christian_2.Springbock_3' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000046.html'>
-    <img alt='2006_(2384)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2384).JPG' title='2006_(2384)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000048.html'>
-    <img alt='Klippspringer' class='img-thumbnail center img-responsive' src='/img/thumbs/klippspringer2.jpg' title='Klippspringer' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000049.html'>
-    <img alt='2006_(1854)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1854).JPG' title='2006_(1854)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000050.html'>
-    <img alt='steinbock' class='img-thumbnail center img-responsive' src='/img/thumbs/steinbock.jpg' title='steinbock' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000070.html'>
-    <img alt='45_cm_horn' class='img-thumbnail center img-responsive' src='/img/thumbs/45_cm_horn.jpg' title='45_cm_horn' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000079.html'>
-    <img alt='2006_(1258)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1258).JPG' title='2006_(1258)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000081.html'>
-    <img alt='erster_springbock' class='img-thumbnail center img-responsive' src='/img/thumbs/erster_springbock.jpg' title='erster_springbock' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000084.html'>
-    <img alt='2006_(1677)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1677).JPG' title='2006_(1677)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000095.html'>
-    <img alt='alter_ramm' class='img-thumbnail center img-responsive' src='/img/thumbs/alter_ramm.jpg' title='alter_ramm' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000096.html'>
-    <img alt='zebra2' class='img-thumbnail center img-responsive' src='/img/thumbs/zebra2.jpg' title='zebra2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000097.html'>
-    <img alt='stahlhelm_springbock' class='img-thumbnail center img-responsive' src='/img/thumbs/stahlhelm_springbock.jpg' title='stahlhelm_springbock' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000101.html'>
-    <img alt='ernst_ricke' class='img-thumbnail center img-responsive' src='/img/thumbs/ernst_ricke.jpg' title='ernst_ricke' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000103.html'>
-    <img alt='springbock_mani' class='img-thumbnail center img-responsive' src='/img/thumbs/springbock_mani.jpg' title='springbock_mani' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000106.html'>
-    <img alt='oryx_bulle' class='img-thumbnail center img-responsive' src='/img/thumbs/oryx_bulle.jpg' title='oryx_bulle' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000107.html'>
-    <img alt='springbock_kokabaum' class='img-thumbnail center img-responsive' src='/img/thumbs/springbock_kokabaum.jpg' title='springbock_kokabaum' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000117.html'>
-    <img alt='Christian_1.Springbock_1' class='img-thumbnail center img-responsive' src='/img/thumbs/Christian_1.Springbock_1.JPG' title='Christian_1.Springbock_1' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000119.html'>
-    <img alt='pauls_zebra' class='img-thumbnail center img-responsive' src='/img/thumbs/pauls_zebra.jpg' title='pauls_zebra' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000121.html'>
-    <img alt='klaras_springbock' class='img-thumbnail center img-responsive' src='/img/thumbs/klaras_springbock.jpg' title='klaras_springbock' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000124.html'>
-    <img alt='2006_(1477)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1477).JPG' title='2006_(1477)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000129.html'>
-    <img alt='kurzes_horn' class='img-thumbnail center img-responsive' src='/img/thumbs/kurzes_horn.jpg' title='kurzes_horn' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000132.html'>
-    <img alt='2006_(2274)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2274).JPG' title='2006_(2274)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000139.html'>
-    <img alt='2006_(2181)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2181).JPG' title='2006_(2181)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000149.html'>
-    <img alt='2006_(1786)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1786).JPG' title='2006_(1786)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000154.html'>
-    <img alt='steinbock2' class='img-thumbnail center img-responsive' src='/img/thumbs/steinbock2.jpg' title='steinbock2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000157.html'>
-    <img alt='2006_(2308)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2308).JPG' title='2006_(2308)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000164.html'>
-    <img alt='2006_(2123)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2123).JPG' title='2006_(2123)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000166.html'>
-    <img alt='Dirks_1.Springbock_6' class='img-thumbnail center img-responsive' src='/img/thumbs/Dirks_1.Springbock_6.JPG' title='Dirks_1.Springbock_6' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000169.html'>
-    <img alt='Afrika_2005_Zwei_287' class='img-thumbnail center img-responsive' src='/img/thumbs/Afrika_2005_Zwei_287.JPG' title='Afrika_2005_Zwei_287' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000170.html'>
-    <img alt='springbock2' class='img-thumbnail center img-responsive' src='/img/thumbs/springbock2.jpg' title='springbock2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000173.html'>
-    <img alt='Dirk_2.Springbock_1' class='img-thumbnail center img-responsive' src='/img/thumbs/Dirk_2.Springbock_1.JPG' title='Dirk_2.Springbock_1' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000180.html'>
-    <img alt='2006_(1714)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1714).JPG' title='2006_(1714)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000183.html'>
-    <img alt='chris_leopard' class='img-thumbnail center img-responsive' src='/img/thumbs/chris_leopard.jpg' title='chris_leopard' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000193.html'>
-    <img alt='2006_(1764)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1764).JPG' title='2006_(1764)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000194.html'>
-    <img alt='2006_(2135)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2135).JPG' title='2006_(2135)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000200.html'>
-    <img alt='2006_(1747)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1747).JPG' title='2006_(1747)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000201.html'>
-    <img alt='2006_(1847)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(1847).JPG' title='2006_(1847)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000202.html'>
-    <img alt='2006_(2245)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2245).JPG' title='2006_(2245)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000203.html'>
-    <img alt='20061974_(2)' class='img-thumbnail center img-responsive' src='/img/thumbs/20061974_(2).JPG' title='20061974_(2)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000208.html'>
-    <img alt='2006_(2028)' class='img-thumbnail center img-responsive' src='/img/thumbs/2006_(2028).JPG' title='2006_(2028)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000209.html'>
-    <img alt='Ingos_Zebra' class='img-thumbnail center img-responsive' src='/img/thumbs/Ingos_Zebra.jpg' title='Ingos_Zebra' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000216.html'>
-    <img alt='SC00003_(14)' class='img-thumbnail center img-responsive' src='/img/thumbs/SC00003_(14).JPG' title='SC00003_(14)' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000244.html'>
-    <img alt='S7305275' class='img-thumbnail center img-responsive' src='/img/thumbs/S7305275.JPG' title='S7305275' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000247.html'>
-    <img alt='PIC01234' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01234.JPG' title='PIC01234' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000248.html'>
-    <img alt='DSC_0428' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0428.JPG' title='DSC_0428' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000250.html'>
-    <img alt='DSC_0212' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0212.JPG' title='DSC_0212' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000251.html'>
-    <img alt='DSC_0416' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0416.JPG' title='DSC_0416' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000252.html'>
-    <img alt='DSC_0780' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0780.JPG' title='DSC_0780' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000255.html'>
-    <img alt='DSC_0662' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0662.JPG' title='DSC_0662' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000257.html'>
-    <img alt='DSCN3616' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3616.JPG' title='DSCN3616' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000260.html'>
-    <img alt='DSCN3444' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3444.JPG' title='DSCN3444' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000261.html'>
-    <img alt='IMG_1877' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_1877.JPG' title='IMG_1877' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000262.html'>
-    <img alt='DSC_0345' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0345.JPG' title='DSC_0345' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000263.html'>
-    <img alt='DSCN3543' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3543.JPG' title='DSCN3543' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000265.html'>
-    <img alt='DSCN3437' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3437.JPG' title='DSCN3437' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000266.html'>
-    <img alt='DSC_0446' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0446.JPG' title='DSC_0446' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000277.html'>
-    <img alt='DSC_0338' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0338.JPG' title='DSC_0338' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000278.html'>
-    <img alt='DSC_0460' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0460.JPG' title='DSC_0460' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000279.html'>
-    <img alt='IMG_1876' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_1876.JPG' title='IMG_1876' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000281.html'>
-    <img alt='PIC01140' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01140.JPG' title='PIC01140' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000283.html'>
-    <img alt='DSC_0646' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0646.JPG' title='DSC_0646' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000302.html'>
-    <img alt='DSC00666' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC00666.JPG' title='DSC00666' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000304.html'>
-    <img alt='DSCF1260' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCF1260.JPG' title='DSCF1260' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000308.html'>
-    <img alt='DSCN4339' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4339.JPG' title='DSCN4339' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000309.html'>
-    <img alt='DSCN4356' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4356.JPG' title='DSCN4356' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000311.html'>
-    <img alt='DSCN4391' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4391.JPG' title='DSCN4391' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000316.html'>
-    <img alt='DSCN4456' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4456.JPG' title='DSCN4456' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000317.html'>
-    <img alt='DSCN4475' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4475.JPG' title='DSCN4475' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000318.html'>
-    <img alt='DSCN4488' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4488.JPG' title='DSCN4488' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000319.html'>
-    <img alt='DSCN4511' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4511.JPG' title='DSCN4511' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000322.html'>
-    <img alt='DSCN4552' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4552.JPG' title='DSCN4552' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000323.html'>
-    <img alt='DSCN4564' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4564.JPG' title='DSCN4564' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000324.html'>
-    <img alt='DSCN4566' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4566.JPG' title='DSCN4566' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000325.html'>
-    <img alt='DSCN4573' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4573.JPG' title='DSCN4573' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000326.html'>
-    <img alt='DSCN4582' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4582.JPG' title='DSCN4582' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000327.html'>
-    <img alt='DSCN4589' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4589.JPG' title='DSCN4589' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000328.html'>
-    <img alt='DSCN4627' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4627.JPG' title='DSCN4627' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000329.html'>
-    <img alt='DSCN4648' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4648.JPG' title='DSCN4648' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000330.html'>
-    <img alt='DSCN4661' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4661.JPG' title='DSCN4661' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000331.html'>
-    <img alt='DSCN4666' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4666.JPG' title='DSCN4666' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000332.html'>
-    <img alt='DSCN4693' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4693.JPG' title='DSCN4693' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000335.html'>
-    <img alt='IMG_0644' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_0644.jpg' title='IMG_0644' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000336.html'>
-    <img alt='IMG_0722' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_0722.jpg' title='IMG_0722' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000339.html'>
-    <img alt='IMG_9082' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_9082.jpg' title='IMG_9082' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000340.html'>
-    <img alt='IMG_9181' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_9181.jpg' title='IMG_9181' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000342.html'>
-    <img alt='P1000692' class='img-thumbnail center img-responsive' src='/img/thumbs/P1000692.jpg' title='P1000692' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000344.html'>
-    <img alt='P1330585' class='img-thumbnail center img-responsive' src='/img/thumbs/P1330585.JPG' title='P1330585' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000367.html'>
-    <img alt='DSC_0686' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0686.JPG' title='DSC_0686' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000371.html'>
-    <img alt='DSC00500' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC00500.JPG' title='DSC00500' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000379.html'>
-    <img alt='DSCN2381' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN2381.JPG' title='DSCN2381' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000389.html'>
-    <img alt='DSCN3802' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3802.JPG' title='DSCN3802' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000391.html'>
-    <img alt='DSCN3844' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3844.JPG' title='DSCN3844' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000392.html'>
-    <img alt='DSCN3853' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3853.JPG' title='DSCN3853' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000393.html'>
-    <img alt='DSCN3857' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3857.JPG' title='DSCN3857' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000397.html'>
-    <img alt='IMG_0923-2' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_0923-2.jpg' title='IMG_0923-2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000403.html'>
-    <img alt='IMGP3285' class='img-thumbnail center img-responsive' src='/img/thumbs/IMGP3285.JPG' title='IMGP3285' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/chasse/P0000409.html'>
-    <img alt='P1000665' class='img-thumbnail center img-responsive' src='/img/thumbs/P1000665.jpg' title='P1000665' /></a>
-</div>
-          <footer>
-            <p class="pull-right">&copy; Olaf 2013</p>
-          </footer>
         </div>
+    </div> -->
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Photos <small>Chasse</small></h1>
+        <!-- <h1>Sticky footer with fixed navbar</h1> -->
+      </div>
+      
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000014.html">
+    <img src="/img/thumbs/springbock.jpg" class="img-thumbnail center img-responsive" alt="springbock" title="springbock" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000021.html">
+    <img src="/img/thumbs/2006_(1939).JPG" class="img-thumbnail center img-responsive" alt="2006_(1939)" title="2006_(1939)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000032.html">
+    <img src="/img/thumbs/2006_(1963).JPG" class="img-thumbnail center img-responsive" alt="2006_(1963)" title="2006_(1963)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000035.html">
+    <img src="/img/thumbs/oryx_zuckerhut.jpg" class="img-thumbnail center img-responsive" alt="oryx_zuckerhut" title="oryx_zuckerhut" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000040.html">
+    <img src="/img/thumbs/2006_(2327).JPG" class="img-thumbnail center img-responsive" alt="2006_(2327)" title="2006_(2327)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000042.html">
+    <img src="/img/thumbs/Christian_2.Springbock_3.JPG" class="img-thumbnail center img-responsive" alt="Christian_2.Springbock_3" title="Christian_2.Springbock_3" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000046.html">
+    <img src="/img/thumbs/2006_(2384).JPG" class="img-thumbnail center img-responsive" alt="2006_(2384)" title="2006_(2384)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000048.html">
+    <img src="/img/thumbs/klippspringer2.jpg" class="img-thumbnail center img-responsive" alt="Klippspringer" title="Klippspringer" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000049.html">
+    <img src="/img/thumbs/2006_(1854).JPG" class="img-thumbnail center img-responsive" alt="2006_(1854)" title="2006_(1854)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000050.html">
+    <img src="/img/thumbs/steinbock.jpg" class="img-thumbnail center img-responsive" alt="steinbock" title="steinbock" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000070.html">
+    <img src="/img/thumbs/45_cm_horn.jpg" class="img-thumbnail center img-responsive" alt="45_cm_horn" title="45_cm_horn" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000079.html">
+    <img src="/img/thumbs/2006_(1258).JPG" class="img-thumbnail center img-responsive" alt="2006_(1258)" title="2006_(1258)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000081.html">
+    <img src="/img/thumbs/erster_springbock.jpg" class="img-thumbnail center img-responsive" alt="erster_springbock" title="erster_springbock" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000084.html">
+    <img src="/img/thumbs/2006_(1677).JPG" class="img-thumbnail center img-responsive" alt="2006_(1677)" title="2006_(1677)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000095.html">
+    <img src="/img/thumbs/alter_ramm.jpg" class="img-thumbnail center img-responsive" alt="alter_ramm" title="alter_ramm" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000096.html">
+    <img src="/img/thumbs/zebra2.jpg" class="img-thumbnail center img-responsive" alt="zebra2" title="zebra2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000097.html">
+    <img src="/img/thumbs/stahlhelm_springbock.jpg" class="img-thumbnail center img-responsive" alt="stahlhelm_springbock" title="stahlhelm_springbock" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000101.html">
+    <img src="/img/thumbs/ernst_ricke.jpg" class="img-thumbnail center img-responsive" alt="ernst_ricke" title="ernst_ricke" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000103.html">
+    <img src="/img/thumbs/springbock_mani.jpg" class="img-thumbnail center img-responsive" alt="springbock_mani" title="springbock_mani" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000106.html">
+    <img src="/img/thumbs/oryx_bulle.jpg" class="img-thumbnail center img-responsive" alt="oryx_bulle" title="oryx_bulle" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000107.html">
+    <img src="/img/thumbs/springbock_kokabaum.jpg" class="img-thumbnail center img-responsive" alt="springbock_kokabaum" title="springbock_kokabaum" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000117.html">
+    <img src="/img/thumbs/Christian_1.Springbock_1.JPG" class="img-thumbnail center img-responsive" alt="Christian_1.Springbock_1" title="Christian_1.Springbock_1" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000119.html">
+    <img src="/img/thumbs/pauls_zebra.jpg" class="img-thumbnail center img-responsive" alt="pauls_zebra" title="pauls_zebra" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000121.html">
+    <img src="/img/thumbs/klaras_springbock.jpg" class="img-thumbnail center img-responsive" alt="klaras_springbock" title="klaras_springbock" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000124.html">
+    <img src="/img/thumbs/2006_(1477).JPG" class="img-thumbnail center img-responsive" alt="2006_(1477)" title="2006_(1477)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000129.html">
+    <img src="/img/thumbs/kurzes_horn.jpg" class="img-thumbnail center img-responsive" alt="kurzes_horn" title="kurzes_horn" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000132.html">
+    <img src="/img/thumbs/2006_(2274).JPG" class="img-thumbnail center img-responsive" alt="2006_(2274)" title="2006_(2274)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000139.html">
+    <img src="/img/thumbs/2006_(2181).JPG" class="img-thumbnail center img-responsive" alt="2006_(2181)" title="2006_(2181)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000149.html">
+    <img src="/img/thumbs/2006_(1786).JPG" class="img-thumbnail center img-responsive" alt="2006_(1786)" title="2006_(1786)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000154.html">
+    <img src="/img/thumbs/steinbock2.jpg" class="img-thumbnail center img-responsive" alt="steinbock2" title="steinbock2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000157.html">
+    <img src="/img/thumbs/2006_(2308).JPG" class="img-thumbnail center img-responsive" alt="2006_(2308)" title="2006_(2308)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000164.html">
+    <img src="/img/thumbs/2006_(2123).JPG" class="img-thumbnail center img-responsive" alt="2006_(2123)" title="2006_(2123)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000166.html">
+    <img src="/img/thumbs/Dirks_1.Springbock_6.JPG" class="img-thumbnail center img-responsive" alt="Dirks_1.Springbock_6" title="Dirks_1.Springbock_6" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000169.html">
+    <img src="/img/thumbs/Afrika_2005_Zwei_287.JPG" class="img-thumbnail center img-responsive" alt="Afrika_2005_Zwei_287" title="Afrika_2005_Zwei_287" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000170.html">
+    <img src="/img/thumbs/springbock2.jpg" class="img-thumbnail center img-responsive" alt="springbock2" title="springbock2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000173.html">
+    <img src="/img/thumbs/Dirk_2.Springbock_1.JPG" class="img-thumbnail center img-responsive" alt="Dirk_2.Springbock_1" title="Dirk_2.Springbock_1" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000180.html">
+    <img src="/img/thumbs/2006_(1714).JPG" class="img-thumbnail center img-responsive" alt="2006_(1714)" title="2006_(1714)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000183.html">
+    <img src="/img/thumbs/chris_leopard.jpg" class="img-thumbnail center img-responsive" alt="chris_leopard" title="chris_leopard" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000193.html">
+    <img src="/img/thumbs/2006_(1764).JPG" class="img-thumbnail center img-responsive" alt="2006_(1764)" title="2006_(1764)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000194.html">
+    <img src="/img/thumbs/2006_(2135).JPG" class="img-thumbnail center img-responsive" alt="2006_(2135)" title="2006_(2135)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000200.html">
+    <img src="/img/thumbs/2006_(1747).JPG" class="img-thumbnail center img-responsive" alt="2006_(1747)" title="2006_(1747)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000201.html">
+    <img src="/img/thumbs/2006_(1847).JPG" class="img-thumbnail center img-responsive" alt="2006_(1847)" title="2006_(1847)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000202.html">
+    <img src="/img/thumbs/2006_(2245).JPG" class="img-thumbnail center img-responsive" alt="2006_(2245)" title="2006_(2245)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000203.html">
+    <img src="/img/thumbs/20061974_(2).JPG" class="img-thumbnail center img-responsive" alt="20061974_(2)" title="20061974_(2)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000208.html">
+    <img src="/img/thumbs/2006_(2028).JPG" class="img-thumbnail center img-responsive" alt="2006_(2028)" title="2006_(2028)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000209.html">
+    <img src="/img/thumbs/Ingos_Zebra.jpg" class="img-thumbnail center img-responsive" alt="Ingos_Zebra" title="Ingos_Zebra" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000216.html">
+    <img src="/img/thumbs/SC00003_(14).JPG" class="img-thumbnail center img-responsive" alt="SC00003_(14)" title="SC00003_(14)" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000244.html">
+    <img src="/img/thumbs/S7305275.JPG" class="img-thumbnail center img-responsive" alt="S7305275" title="S7305275" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000247.html">
+    <img src="/img/thumbs/PIC01234.JPG" class="img-thumbnail center img-responsive" alt="PIC01234" title="PIC01234" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000248.html">
+    <img src="/img/thumbs/DSC_0428.JPG" class="img-thumbnail center img-responsive" alt="DSC_0428" title="DSC_0428" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000250.html">
+    <img src="/img/thumbs/DSC_0212.JPG" class="img-thumbnail center img-responsive" alt="DSC_0212" title="DSC_0212" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000251.html">
+    <img src="/img/thumbs/DSC_0416.JPG" class="img-thumbnail center img-responsive" alt="DSC_0416" title="DSC_0416" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000252.html">
+    <img src="/img/thumbs/DSC_0780.JPG" class="img-thumbnail center img-responsive" alt="DSC_0780" title="DSC_0780" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000255.html">
+    <img src="/img/thumbs/DSC_0662.JPG" class="img-thumbnail center img-responsive" alt="DSC_0662" title="DSC_0662" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000257.html">
+    <img src="/img/thumbs/DSCN3616.JPG" class="img-thumbnail center img-responsive" alt="DSCN3616" title="DSCN3616" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000260.html">
+    <img src="/img/thumbs/DSCN3444.JPG" class="img-thumbnail center img-responsive" alt="DSCN3444" title="DSCN3444" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000261.html">
+    <img src="/img/thumbs/IMG_1877.JPG" class="img-thumbnail center img-responsive" alt="IMG_1877" title="IMG_1877" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000262.html">
+    <img src="/img/thumbs/DSC_0345.JPG" class="img-thumbnail center img-responsive" alt="DSC_0345" title="DSC_0345" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000263.html">
+    <img src="/img/thumbs/DSCN3543.JPG" class="img-thumbnail center img-responsive" alt="DSCN3543" title="DSCN3543" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000265.html">
+    <img src="/img/thumbs/DSCN3437.JPG" class="img-thumbnail center img-responsive" alt="DSCN3437" title="DSCN3437" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000266.html">
+    <img src="/img/thumbs/DSC_0446.JPG" class="img-thumbnail center img-responsive" alt="DSC_0446" title="DSC_0446" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000277.html">
+    <img src="/img/thumbs/DSC_0338.JPG" class="img-thumbnail center img-responsive" alt="DSC_0338" title="DSC_0338" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000278.html">
+    <img src="/img/thumbs/DSC_0460.JPG" class="img-thumbnail center img-responsive" alt="DSC_0460" title="DSC_0460" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000279.html">
+    <img src="/img/thumbs/IMG_1876.JPG" class="img-thumbnail center img-responsive" alt="IMG_1876" title="IMG_1876" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000281.html">
+    <img src="/img/thumbs/PIC01140.JPG" class="img-thumbnail center img-responsive" alt="PIC01140" title="PIC01140" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000283.html">
+    <img src="/img/thumbs/DSC_0646.JPG" class="img-thumbnail center img-responsive" alt="DSC_0646" title="DSC_0646" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000302.html">
+    <img src="/img/thumbs/DSC00666.JPG" class="img-thumbnail center img-responsive" alt="DSC00666" title="DSC00666" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000304.html">
+    <img src="/img/thumbs/DSCF1260.JPG" class="img-thumbnail center img-responsive" alt="DSCF1260" title="DSCF1260" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000308.html">
+    <img src="/img/thumbs/DSCN4339.JPG" class="img-thumbnail center img-responsive" alt="DSCN4339" title="DSCN4339" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000309.html">
+    <img src="/img/thumbs/DSCN4356.JPG" class="img-thumbnail center img-responsive" alt="DSCN4356" title="DSCN4356" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000311.html">
+    <img src="/img/thumbs/DSCN4391.JPG" class="img-thumbnail center img-responsive" alt="DSCN4391" title="DSCN4391" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000316.html">
+    <img src="/img/thumbs/DSCN4456.JPG" class="img-thumbnail center img-responsive" alt="DSCN4456" title="DSCN4456" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000317.html">
+    <img src="/img/thumbs/DSCN4475.JPG" class="img-thumbnail center img-responsive" alt="DSCN4475" title="DSCN4475" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000318.html">
+    <img src="/img/thumbs/DSCN4488.JPG" class="img-thumbnail center img-responsive" alt="DSCN4488" title="DSCN4488" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000319.html">
+    <img src="/img/thumbs/DSCN4511.JPG" class="img-thumbnail center img-responsive" alt="DSCN4511" title="DSCN4511" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000322.html">
+    <img src="/img/thumbs/DSCN4552.JPG" class="img-thumbnail center img-responsive" alt="DSCN4552" title="DSCN4552" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000323.html">
+    <img src="/img/thumbs/DSCN4564.JPG" class="img-thumbnail center img-responsive" alt="DSCN4564" title="DSCN4564" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000324.html">
+    <img src="/img/thumbs/DSCN4566.JPG" class="img-thumbnail center img-responsive" alt="DSCN4566" title="DSCN4566" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000325.html">
+    <img src="/img/thumbs/DSCN4573.JPG" class="img-thumbnail center img-responsive" alt="DSCN4573" title="DSCN4573" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000326.html">
+    <img src="/img/thumbs/DSCN4582.JPG" class="img-thumbnail center img-responsive" alt="DSCN4582" title="DSCN4582" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000327.html">
+    <img src="/img/thumbs/DSCN4589.JPG" class="img-thumbnail center img-responsive" alt="DSCN4589" title="DSCN4589" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000328.html">
+    <img src="/img/thumbs/DSCN4627.JPG" class="img-thumbnail center img-responsive" alt="DSCN4627" title="DSCN4627" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000329.html">
+    <img src="/img/thumbs/DSCN4648.JPG" class="img-thumbnail center img-responsive" alt="DSCN4648" title="DSCN4648" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000330.html">
+    <img src="/img/thumbs/DSCN4661.JPG" class="img-thumbnail center img-responsive" alt="DSCN4661" title="DSCN4661" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000331.html">
+    <img src="/img/thumbs/DSCN4666.JPG" class="img-thumbnail center img-responsive" alt="DSCN4666" title="DSCN4666" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000332.html">
+    <img src="/img/thumbs/DSCN4693.JPG" class="img-thumbnail center img-responsive" alt="DSCN4693" title="DSCN4693" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000335.html">
+    <img src="/img/thumbs/IMG_0644.jpg" class="img-thumbnail center img-responsive" alt="IMG_0644" title="IMG_0644" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000336.html">
+    <img src="/img/thumbs/IMG_0722.jpg" class="img-thumbnail center img-responsive" alt="IMG_0722" title="IMG_0722" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000339.html">
+    <img src="/img/thumbs/IMG_9082.jpg" class="img-thumbnail center img-responsive" alt="IMG_9082" title="IMG_9082" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000340.html">
+    <img src="/img/thumbs/IMG_9181.jpg" class="img-thumbnail center img-responsive" alt="IMG_9181" title="IMG_9181" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000342.html">
+    <img src="/img/thumbs/P1000692.jpg" class="img-thumbnail center img-responsive" alt="P1000692" title="P1000692" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000344.html">
+    <img src="/img/thumbs/P1330585.JPG" class="img-thumbnail center img-responsive" alt="P1330585" title="P1330585" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000367.html">
+    <img src="/img/thumbs/DSC_0686.JPG" class="img-thumbnail center img-responsive" alt="DSC_0686" title="DSC_0686" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000371.html">
+    <img src="/img/thumbs/DSC00500.JPG" class="img-thumbnail center img-responsive" alt="DSC00500" title="DSC00500" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000379.html">
+    <img src="/img/thumbs/DSCN2381.JPG" class="img-thumbnail center img-responsive" alt="DSCN2381" title="DSCN2381" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000389.html">
+    <img src="/img/thumbs/DSCN3802.JPG" class="img-thumbnail center img-responsive" alt="DSCN3802" title="DSCN3802" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000391.html">
+    <img src="/img/thumbs/DSCN3844.JPG" class="img-thumbnail center img-responsive" alt="DSCN3844" title="DSCN3844" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000392.html">
+    <img src="/img/thumbs/DSCN3853.JPG" class="img-thumbnail center img-responsive" alt="DSCN3853" title="DSCN3853" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000393.html">
+    <img src="/img/thumbs/DSCN3857.JPG" class="img-thumbnail center img-responsive" alt="DSCN3857" title="DSCN3857" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000397.html">
+    <img src="/img/thumbs/IMG_0923-2.jpg" class="img-thumbnail center img-responsive" alt="IMG_0923-2" title="IMG_0923-2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000403.html">
+    <img src="/img/thumbs/IMGP3285.JPG" class="img-thumbnail center img-responsive" alt="IMGP3285" title="IMGP3285" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/chasse/P0000409.html">
+    <img src="/img/thumbs/P1000665.jpg" class="img-thumbnail center img-responsive" alt="P1000665" title="P1000665" /></a>
+</div>
+
+
+      <!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p> -->
+      <!-- <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p> -->
+    </div>
+    <!-- End page content -->
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">
+          
+            <a href="/fr/imprint.html" class="footerlink">Imprint</a>
+          
+          <span class="pull-right">&copy; Olaf 2014</span>
+        </p>
+      </div>
     </div>
 
-    <!-- JS and analytics only. -->
+
     <!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- <script src="./js/jquery.js"></script> -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-<script src="/js/bootstrap.js"></script>
-
-<script src="/js/holder.js"></script>
-
-<script src="/js/application.js"></script>
-
-<!-- Analytics
-================================================== -->
-
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>

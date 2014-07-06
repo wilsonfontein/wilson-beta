@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
 
-<title>
-            
-            Wilsonfontein - Hunting Safaris in Namibia / Africa 
-            
-        </title>
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
 
-<!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- Documentation extras -->
-<link href="/css/wilson.css" rel="stylesheet">
-<!-- <link href="/css/pygments-manni.css" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <!-- <link href="/css/sticky-footer-navbar.css" rel="stylesheet"> -->
+    <link href="/css/wilson.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="./js/html5shiv.js"></script>
-  <script src="./js/respond.min.js"></script>
-<![endif]-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-<!-- Favicons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./ico/apple-touch-icon-72-precomposed.png">
-                <link rel="apple-touch-icon-precomposed" href="./ico/apple-touch-icon-57-precomposed.png">
-                               <link rel="shortcut icon" href="./ico/favicon.png">
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-146052-10']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-    <!-- Place anything custom after this. -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body class="">
 
-    <!-- Docs master nav -->
-    <div class="navbar navbar-inverse bs-docs-nav">
+  <body>
+
+    <!-- Fixed navbar -->
+<!--     <div class="navbar navbar-inverse bs-docs-nav">
       <div class="container">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        </button>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
         <div class="nav-collapse collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+              <li class="active"><a href="/en/photos/">Photos</a></li>
+            
+              <li ><a href="/en/price.html">Price</a></li>
+            
+              <li ><a href="/en/contact.html">Contact</a></li>
+            
+              <li ><a href="/en/dedication.html">Dedication</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> en <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                
+                  <li><a href="/en/photos/">en</a></li>
+                
+                  <li><a href="/de/fotos/">de</a></li>
+                
+                  <li><a href="/fr/photos/">fr</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="nav navbar-nav ">
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="navbar navbar-default " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Project name</a> -->
+        </div>
+        <div class="navbar-header">
           <ul class="nav navbar-nav">
             
               <li ><a href="/en/index.html">Home</a></li>
@@ -64,6 +86,16 @@
             
               <li ><a href="/en/recreation.html">Recreation</a></li>
             
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+            
+            
               <li class="active"><a href="/en/photos/">Photos</a></li>
             
               <li ><a href="/en/price.html">Price</a></li>
@@ -72,344 +104,555 @@
             
               <li ><a href="/en/dedication.html">Dedication</a></li>
             
-              <li ><a href="/en/imprint.html">Imprint</a></li>
-            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> en <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 
-                 <li><a href="/en/photos/">en</a></li>
+                  <li><a href="/en/photos/" class="en">en</a></li>
                 
-                 <li><a href="/de/fotos/">de</a></li>
+                  <li><a href="/de/fotos/" class="de">de</a></li>
                 
-                 <li><a href="/fr/photos/">fr</a></li>
+                  <li><a href="/fr/photos/" class="fr">fr</a></li>
                 
               </ul>
             </li>
+            <li class="dropdown dropdown-split">
+              <a href="#" class="foo">Dropdown</a><a href="#" class="dropdown-toggle bar" data-toggle="dropdown"><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li>
+            
           </ul>
         </div>
-<!--         <ul class="nav navbar-nav ">
-        </ul> -->
       </div>
     </div>
 
-    <!-- Page content of course! -->
-    <div class="row">
+<!--     <div class="row">
         <div class="col-12 col-lg-8 col-offset-2">
-          <h1 class="big">Photos <small>Spycam</small></h1>
-          <div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000341.html'>
-    <img alt='MDGC0102' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0102.JPG' title='MDGC0102' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000345.html'>
-    <img alt='PICT0001' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0001.JPG' title='PICT0001' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000346.html'>
-    <img alt='PICT0013' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0013.JPG' title='PICT0013' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000348.html'>
-    <img alt='PICT0072' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0072.JPG' title='PICT0072' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000349.html'>
-    <img alt='PICT0074' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0074.JPG' title='PICT0074' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000350.html'>
-    <img alt='PICT0079' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0079.JPG' title='PICT0079' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000351.html'>
-    <img alt='PICT0252' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0252.JPG' title='PICT0252' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000407.html'>
-    <img alt='MDGC0205' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0205.JPG' title='MDGC0205' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000412.html'>
-    <img alt='PICT0375' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0375.JPG' title='PICT0375' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000413.html'>
-    <img alt='PICT0946' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0946.JPG' title='PICT0946' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000414.html'>
-    <img alt='PICT0951' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0951.JPG' title='PICT0951' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000415.html'>
-    <img alt='PICT0980' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0980.JPG' title='PICT0980' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000416.html'>
-    <img alt='MDGC0024' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0024.JPG' title='MDGC0024' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000417.html'>
-    <img alt='MDGC0098' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0098.JPG' title='MDGC0098' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000418.html'>
-    <img alt='MDGC0138' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0138.JPG' title='MDGC0138' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000419.html'>
-    <img alt='MDGC0435' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0435.JPG' title='MDGC0435' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000420.html'>
-    <img alt='PICT0010' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0010.JPG' title='PICT0010' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000421.html'>
-    <img alt='PICT0023' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0023.JPG' title='PICT0023' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000422.html'>
-    <img alt='PICT0035' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0035.JPG' title='PICT0035' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000423.html'>
-    <img alt='PICT0006' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0006.JPG' title='PICT0006' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000424.html'>
-    <img alt='PICT0011' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0011.JPG' title='PICT0011' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000425.html'>
-    <img alt='PICT0036_2' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0036_2.JPG' title='PICT0036_2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000426.html'>
-    <img alt='PICT0037' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0037.JPG' title='PICT0037' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000427.html'>
-    <img alt='PICT0064_4' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0064_4.JPG' title='PICT0064_4' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000428.html'>
-    <img alt='PICT0076' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0076.JPG' title='PICT0076' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000429.html'>
-    <img alt='PICT0088' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0088.JPG' title='PICT0088' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000430.html'>
-    <img alt='PICT0115' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0115.JPG' title='PICT0115' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000431.html'>
-    <img alt='PICT0116' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0116.JPG' title='PICT0116' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000432.html'>
-    <img alt='PICT0219' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0219.JPG' title='PICT0219' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000433.html'>
-    <img alt='PICT0224' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0224.JPG' title='PICT0224' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000434.html'>
-    <img alt='PICT0249' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0249.JPG' title='PICT0249' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000435.html'>
-    <img alt='PICT0315' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0315.JPG' title='PICT0315' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000436.html'>
-    <img alt='PICT0414' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0414.JPG' title='PICT0414' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000437.html'>
-    <img alt='PICT0421' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0421.JPG' title='PICT0421' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000438.html'>
-    <img alt='PICT0477' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0477.JPG' title='PICT0477' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000439.html'>
-    <img alt='PICT0530' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0530.JPG' title='PICT0530' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000440.html'>
-    <img alt='PICT0536' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0536.JPG' title='PICT0536' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000441.html'>
-    <img alt='PICT0795' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0795.JPG' title='PICT0795' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000442.html'>
-    <img alt='PICT1229' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT1229.JPG' title='PICT1229' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000443.html'>
-    <img alt='PICT1366' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT1366.JPG' title='PICT1366' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000444.html'>
-    <img alt='PICT1493' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT1493.JPG' title='PICT1493' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000445.html'>
-    <img alt='MDGC0004_6' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0004_6.JPG' title='MDGC0004_6' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000446.html'>
-    <img alt='MDGC0007' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0007.JPG' title='MDGC0007' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000447.html'>
-    <img alt='MDGC0014' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0014.JPG' title='MDGC0014' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000448.html'>
-    <img alt='MDGC0022' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0022.JPG' title='MDGC0022' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000449.html'>
-    <img alt='MDGC0028' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0028.JPG' title='MDGC0028' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000450.html'>
-    <img alt='MDGC0056' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0056.JPG' title='MDGC0056' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000451.html'>
-    <img alt='MDGC0061' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0061.JPG' title='MDGC0061' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000452.html'>
-    <img alt='MDGC0064' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0064.JPG' title='MDGC0064' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000453.html'>
-    <img alt='MDGC0073' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0073.JPG' title='MDGC0073' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000454.html'>
-    <img alt='MDGC0076' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0076.JPG' title='MDGC0076' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000455.html'>
-    <img alt='MDGC0092' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0092.JPG' title='MDGC0092' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000456.html'>
-    <img alt='MDGC0100_2' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0100_2.JPG' title='MDGC0100_2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000457.html'>
-    <img alt='MDGC0163' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0163.JPG' title='MDGC0163' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000458.html'>
-    <img alt='MDGC0199' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0199.JPG' title='MDGC0199' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000459.html'>
-    <img alt='MDGC0222' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0222.JPG' title='MDGC0222' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000460.html'>
-    <img alt='MDGC0363' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0363.JPG' title='MDGC0363' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000461.html'>
-    <img alt='MDGC0373' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0373.JPG' title='MDGC0373' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000462.html'>
-    <img alt='MDGC0416' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0416.JPG' title='MDGC0416' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000463.html'>
-    <img alt='MDGC0434' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0434.JPG' title='MDGC0434' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000464.html'>
-    <img alt='MDGC0555' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0555.JPG' title='MDGC0555' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000465.html'>
-    <img alt='MDGC0616' class='img-thumbnail center img-responsive' src='/img/thumbs/MDGC0616.JPG' title='MDGC0616' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000466.html'>
-    <img alt='PICT0003' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0003.JPG' title='PICT0003' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000467.html'>
-    <img alt='PICT0004_2' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0004_2.JPG' title='PICT0004_2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000468.html'>
-    <img alt='PICT0004' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0004.JPG' title='PICT0004' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000469.html'>
-    <img alt='PICT0008' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0008.JPG' title='PICT0008' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000470.html'>
-    <img alt='PICT0011_1' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0011_1.JPG' title='PICT0011_1' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000471.html'>
-    <img alt='PICT0015' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0015.JPG' title='PICT0015' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000472.html'>
-    <img alt='PICT0016' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0016.JPG' title='PICT0016' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000473.html'>
-    <img alt='PICT0018' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0018.JPG' title='PICT0018' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000474.html'>
-    <img alt='PICT0024' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0024.JPG' title='PICT0024' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000475.html'>
-    <img alt='PICT0029_1' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0029_1.JPG' title='PICT0029_1' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000476.html'>
-    <img alt='PICT0030' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0030.JPG' title='PICT0030' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000477.html'>
-    <img alt='PICT0034' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0034.JPG' title='PICT0034' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000478.html'>
-    <img alt='PICT0043' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0043.JPG' title='PICT0043' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000479.html'>
-    <img alt='PICT0045' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0045.JPG' title='PICT0045' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000480.html'>
-    <img alt='PICT0049' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0049.JPG' title='PICT0049' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000481.html'>
-    <img alt='PICT0061' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0061.JPG' title='PICT0061' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000482.html'>
-    <img alt='PICT0064' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0064.JPG' title='PICT0064' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000483.html'>
-    <img alt='PICT0068' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0068.JPG' title='PICT0068' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000484.html'>
-    <img alt='PICT0079_2' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0079_2.JPG' title='PICT0079_2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000485.html'>
-    <img alt='PICT0135' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0135.JPG' title='PICT0135' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000486.html'>
-    <img alt='PICT0175' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0175.JPG' title='PICT0175' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000487.html'>
-    <img alt='PICT0180' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0180.JPG' title='PICT0180' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000488.html'>
-    <img alt='PICT0213' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0213.JPG' title='PICT0213' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000489.html'>
-    <img alt='PICT0238' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0238.JPG' title='PICT0238' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000490.html'>
-    <img alt='PICT0298' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0298.JPG' title='PICT0298' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000491.html'>
-    <img alt='PICT0328' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0328.JPG' title='PICT0328' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000492.html'>
-    <img alt='PICT0333' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0333.JPG' title='PICT0333' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000493.html'>
-    <img alt='PICT0338' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0338.JPG' title='PICT0338' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000494.html'>
-    <img alt='PICT0386' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0386.JPG' title='PICT0386' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000495.html'>
-    <img alt='PICT0410' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0410.JPG' title='PICT0410' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000496.html'>
-    <img alt='PICT0475' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0475.JPG' title='PICT0475' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000497.html'>
-    <img alt='PICT0791' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0791.JPG' title='PICT0791' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000498.html'>
-    <img alt='PICT0874' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0874.JPG' title='PICT0874' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000499.html'>
-    <img alt='PICT0892' class='img-thumbnail center img-responsive' src='/img/thumbs/PICT0892.JPG' title='PICT0892' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/en/photos/spycam/P0000500.html'>
-    <img alt='SUNP0002' class='img-thumbnail center img-responsive' src='/img/thumbs/SUNP0002.JPG' title='SUNP0002' /></a>
-</div>
-          <footer>
-            <p class="pull-right">&copy; Olaf 2013</p>
-          </footer>
         </div>
+    </div> -->
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Photos <small>Spycam</small></h1>
+        <!-- <h1>Sticky footer with fixed navbar</h1> -->
+      </div>
+      
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000341.html">
+    <img src="/img/thumbs/MDGC0102.JPG" class="img-thumbnail center img-responsive" alt="MDGC0102" title="MDGC0102" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000345.html">
+    <img src="/img/thumbs/PICT0001.JPG" class="img-thumbnail center img-responsive" alt="PICT0001" title="PICT0001" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000346.html">
+    <img src="/img/thumbs/PICT0013.JPG" class="img-thumbnail center img-responsive" alt="PICT0013" title="PICT0013" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000348.html">
+    <img src="/img/thumbs/PICT0072.JPG" class="img-thumbnail center img-responsive" alt="PICT0072" title="PICT0072" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000349.html">
+    <img src="/img/thumbs/PICT0074.JPG" class="img-thumbnail center img-responsive" alt="PICT0074" title="PICT0074" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000350.html">
+    <img src="/img/thumbs/PICT0079.JPG" class="img-thumbnail center img-responsive" alt="PICT0079" title="PICT0079" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000351.html">
+    <img src="/img/thumbs/PICT0252.JPG" class="img-thumbnail center img-responsive" alt="PICT0252" title="PICT0252" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000407.html">
+    <img src="/img/thumbs/MDGC0205.JPG" class="img-thumbnail center img-responsive" alt="MDGC0205" title="MDGC0205" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000412.html">
+    <img src="/img/thumbs/PICT0375.JPG" class="img-thumbnail center img-responsive" alt="PICT0375" title="PICT0375" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000413.html">
+    <img src="/img/thumbs/PICT0946.JPG" class="img-thumbnail center img-responsive" alt="PICT0946" title="PICT0946" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000414.html">
+    <img src="/img/thumbs/PICT0951.JPG" class="img-thumbnail center img-responsive" alt="PICT0951" title="PICT0951" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000415.html">
+    <img src="/img/thumbs/PICT0980.JPG" class="img-thumbnail center img-responsive" alt="PICT0980" title="PICT0980" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000416.html">
+    <img src="/img/thumbs/MDGC0024.JPG" class="img-thumbnail center img-responsive" alt="MDGC0024" title="MDGC0024" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000417.html">
+    <img src="/img/thumbs/MDGC0098.JPG" class="img-thumbnail center img-responsive" alt="MDGC0098" title="MDGC0098" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000418.html">
+    <img src="/img/thumbs/MDGC0138.JPG" class="img-thumbnail center img-responsive" alt="MDGC0138" title="MDGC0138" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000419.html">
+    <img src="/img/thumbs/MDGC0435.JPG" class="img-thumbnail center img-responsive" alt="MDGC0435" title="MDGC0435" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000420.html">
+    <img src="/img/thumbs/PICT0010.JPG" class="img-thumbnail center img-responsive" alt="PICT0010" title="PICT0010" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000421.html">
+    <img src="/img/thumbs/PICT0023.JPG" class="img-thumbnail center img-responsive" alt="PICT0023" title="PICT0023" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000422.html">
+    <img src="/img/thumbs/PICT0035.JPG" class="img-thumbnail center img-responsive" alt="PICT0035" title="PICT0035" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000423.html">
+    <img src="/img/thumbs/PICT0006.JPG" class="img-thumbnail center img-responsive" alt="PICT0006" title="PICT0006" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000424.html">
+    <img src="/img/thumbs/PICT0011.JPG" class="img-thumbnail center img-responsive" alt="PICT0011" title="PICT0011" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000425.html">
+    <img src="/img/thumbs/PICT0036_2.JPG" class="img-thumbnail center img-responsive" alt="PICT0036_2" title="PICT0036_2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000426.html">
+    <img src="/img/thumbs/PICT0037.JPG" class="img-thumbnail center img-responsive" alt="PICT0037" title="PICT0037" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000427.html">
+    <img src="/img/thumbs/PICT0064_4.JPG" class="img-thumbnail center img-responsive" alt="PICT0064_4" title="PICT0064_4" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000428.html">
+    <img src="/img/thumbs/PICT0076.JPG" class="img-thumbnail center img-responsive" alt="PICT0076" title="PICT0076" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000429.html">
+    <img src="/img/thumbs/PICT0088.JPG" class="img-thumbnail center img-responsive" alt="PICT0088" title="PICT0088" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000430.html">
+    <img src="/img/thumbs/PICT0115.JPG" class="img-thumbnail center img-responsive" alt="PICT0115" title="PICT0115" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000431.html">
+    <img src="/img/thumbs/PICT0116.JPG" class="img-thumbnail center img-responsive" alt="PICT0116" title="PICT0116" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000432.html">
+    <img src="/img/thumbs/PICT0219.JPG" class="img-thumbnail center img-responsive" alt="PICT0219" title="PICT0219" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000433.html">
+    <img src="/img/thumbs/PICT0224.JPG" class="img-thumbnail center img-responsive" alt="PICT0224" title="PICT0224" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000434.html">
+    <img src="/img/thumbs/PICT0249.JPG" class="img-thumbnail center img-responsive" alt="PICT0249" title="PICT0249" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000435.html">
+    <img src="/img/thumbs/PICT0315.JPG" class="img-thumbnail center img-responsive" alt="PICT0315" title="PICT0315" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000436.html">
+    <img src="/img/thumbs/PICT0414.JPG" class="img-thumbnail center img-responsive" alt="PICT0414" title="PICT0414" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000437.html">
+    <img src="/img/thumbs/PICT0421.JPG" class="img-thumbnail center img-responsive" alt="PICT0421" title="PICT0421" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000438.html">
+    <img src="/img/thumbs/PICT0477.JPG" class="img-thumbnail center img-responsive" alt="PICT0477" title="PICT0477" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000439.html">
+    <img src="/img/thumbs/PICT0530.JPG" class="img-thumbnail center img-responsive" alt="PICT0530" title="PICT0530" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000440.html">
+    <img src="/img/thumbs/PICT0536.JPG" class="img-thumbnail center img-responsive" alt="PICT0536" title="PICT0536" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000441.html">
+    <img src="/img/thumbs/PICT0795.JPG" class="img-thumbnail center img-responsive" alt="PICT0795" title="PICT0795" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000442.html">
+    <img src="/img/thumbs/PICT1229.JPG" class="img-thumbnail center img-responsive" alt="PICT1229" title="PICT1229" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000443.html">
+    <img src="/img/thumbs/PICT1366.JPG" class="img-thumbnail center img-responsive" alt="PICT1366" title="PICT1366" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000444.html">
+    <img src="/img/thumbs/PICT1493.JPG" class="img-thumbnail center img-responsive" alt="PICT1493" title="PICT1493" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000445.html">
+    <img src="/img/thumbs/MDGC0004_6.JPG" class="img-thumbnail center img-responsive" alt="MDGC0004_6" title="MDGC0004_6" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000446.html">
+    <img src="/img/thumbs/MDGC0007.JPG" class="img-thumbnail center img-responsive" alt="MDGC0007" title="MDGC0007" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000447.html">
+    <img src="/img/thumbs/MDGC0014.JPG" class="img-thumbnail center img-responsive" alt="MDGC0014" title="MDGC0014" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000448.html">
+    <img src="/img/thumbs/MDGC0022.JPG" class="img-thumbnail center img-responsive" alt="MDGC0022" title="MDGC0022" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000449.html">
+    <img src="/img/thumbs/MDGC0028.JPG" class="img-thumbnail center img-responsive" alt="MDGC0028" title="MDGC0028" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000450.html">
+    <img src="/img/thumbs/MDGC0056.JPG" class="img-thumbnail center img-responsive" alt="MDGC0056" title="MDGC0056" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000451.html">
+    <img src="/img/thumbs/MDGC0061.JPG" class="img-thumbnail center img-responsive" alt="MDGC0061" title="MDGC0061" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000452.html">
+    <img src="/img/thumbs/MDGC0064.JPG" class="img-thumbnail center img-responsive" alt="MDGC0064" title="MDGC0064" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000453.html">
+    <img src="/img/thumbs/MDGC0073.JPG" class="img-thumbnail center img-responsive" alt="MDGC0073" title="MDGC0073" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000454.html">
+    <img src="/img/thumbs/MDGC0076.JPG" class="img-thumbnail center img-responsive" alt="MDGC0076" title="MDGC0076" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000455.html">
+    <img src="/img/thumbs/MDGC0092.JPG" class="img-thumbnail center img-responsive" alt="MDGC0092" title="MDGC0092" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000456.html">
+    <img src="/img/thumbs/MDGC0100_2.JPG" class="img-thumbnail center img-responsive" alt="MDGC0100_2" title="MDGC0100_2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000457.html">
+    <img src="/img/thumbs/MDGC0163.JPG" class="img-thumbnail center img-responsive" alt="MDGC0163" title="MDGC0163" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000458.html">
+    <img src="/img/thumbs/MDGC0199.JPG" class="img-thumbnail center img-responsive" alt="MDGC0199" title="MDGC0199" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000459.html">
+    <img src="/img/thumbs/MDGC0222.JPG" class="img-thumbnail center img-responsive" alt="MDGC0222" title="MDGC0222" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000460.html">
+    <img src="/img/thumbs/MDGC0363.JPG" class="img-thumbnail center img-responsive" alt="MDGC0363" title="MDGC0363" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000461.html">
+    <img src="/img/thumbs/MDGC0373.JPG" class="img-thumbnail center img-responsive" alt="MDGC0373" title="MDGC0373" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000462.html">
+    <img src="/img/thumbs/MDGC0416.JPG" class="img-thumbnail center img-responsive" alt="MDGC0416" title="MDGC0416" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000463.html">
+    <img src="/img/thumbs/MDGC0434.JPG" class="img-thumbnail center img-responsive" alt="MDGC0434" title="MDGC0434" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000464.html">
+    <img src="/img/thumbs/MDGC0555.JPG" class="img-thumbnail center img-responsive" alt="MDGC0555" title="MDGC0555" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000465.html">
+    <img src="/img/thumbs/MDGC0616.JPG" class="img-thumbnail center img-responsive" alt="MDGC0616" title="MDGC0616" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000466.html">
+    <img src="/img/thumbs/PICT0003.JPG" class="img-thumbnail center img-responsive" alt="PICT0003" title="PICT0003" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000467.html">
+    <img src="/img/thumbs/PICT0004_2.JPG" class="img-thumbnail center img-responsive" alt="PICT0004_2" title="PICT0004_2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000468.html">
+    <img src="/img/thumbs/PICT0004.JPG" class="img-thumbnail center img-responsive" alt="PICT0004" title="PICT0004" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000469.html">
+    <img src="/img/thumbs/PICT0008.JPG" class="img-thumbnail center img-responsive" alt="PICT0008" title="PICT0008" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000470.html">
+    <img src="/img/thumbs/PICT0011_1.JPG" class="img-thumbnail center img-responsive" alt="PICT0011_1" title="PICT0011_1" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000471.html">
+    <img src="/img/thumbs/PICT0015.JPG" class="img-thumbnail center img-responsive" alt="PICT0015" title="PICT0015" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000472.html">
+    <img src="/img/thumbs/PICT0016.JPG" class="img-thumbnail center img-responsive" alt="PICT0016" title="PICT0016" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000473.html">
+    <img src="/img/thumbs/PICT0018.JPG" class="img-thumbnail center img-responsive" alt="PICT0018" title="PICT0018" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000474.html">
+    <img src="/img/thumbs/PICT0024.JPG" class="img-thumbnail center img-responsive" alt="PICT0024" title="PICT0024" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000475.html">
+    <img src="/img/thumbs/PICT0029_1.JPG" class="img-thumbnail center img-responsive" alt="PICT0029_1" title="PICT0029_1" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000476.html">
+    <img src="/img/thumbs/PICT0030.JPG" class="img-thumbnail center img-responsive" alt="PICT0030" title="PICT0030" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000477.html">
+    <img src="/img/thumbs/PICT0034.JPG" class="img-thumbnail center img-responsive" alt="PICT0034" title="PICT0034" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000478.html">
+    <img src="/img/thumbs/PICT0043.JPG" class="img-thumbnail center img-responsive" alt="PICT0043" title="PICT0043" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000479.html">
+    <img src="/img/thumbs/PICT0045.JPG" class="img-thumbnail center img-responsive" alt="PICT0045" title="PICT0045" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000480.html">
+    <img src="/img/thumbs/PICT0049.JPG" class="img-thumbnail center img-responsive" alt="PICT0049" title="PICT0049" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000481.html">
+    <img src="/img/thumbs/PICT0061.JPG" class="img-thumbnail center img-responsive" alt="PICT0061" title="PICT0061" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000482.html">
+    <img src="/img/thumbs/PICT0064.JPG" class="img-thumbnail center img-responsive" alt="PICT0064" title="PICT0064" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000483.html">
+    <img src="/img/thumbs/PICT0068.JPG" class="img-thumbnail center img-responsive" alt="PICT0068" title="PICT0068" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000484.html">
+    <img src="/img/thumbs/PICT0079_2.JPG" class="img-thumbnail center img-responsive" alt="PICT0079_2" title="PICT0079_2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000485.html">
+    <img src="/img/thumbs/PICT0135.JPG" class="img-thumbnail center img-responsive" alt="PICT0135" title="PICT0135" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000486.html">
+    <img src="/img/thumbs/PICT0175.JPG" class="img-thumbnail center img-responsive" alt="PICT0175" title="PICT0175" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000487.html">
+    <img src="/img/thumbs/PICT0180.JPG" class="img-thumbnail center img-responsive" alt="PICT0180" title="PICT0180" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000488.html">
+    <img src="/img/thumbs/PICT0213.JPG" class="img-thumbnail center img-responsive" alt="PICT0213" title="PICT0213" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000489.html">
+    <img src="/img/thumbs/PICT0238.JPG" class="img-thumbnail center img-responsive" alt="PICT0238" title="PICT0238" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000490.html">
+    <img src="/img/thumbs/PICT0298.JPG" class="img-thumbnail center img-responsive" alt="PICT0298" title="PICT0298" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000491.html">
+    <img src="/img/thumbs/PICT0328.JPG" class="img-thumbnail center img-responsive" alt="PICT0328" title="PICT0328" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000492.html">
+    <img src="/img/thumbs/PICT0333.JPG" class="img-thumbnail center img-responsive" alt="PICT0333" title="PICT0333" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000493.html">
+    <img src="/img/thumbs/PICT0338.JPG" class="img-thumbnail center img-responsive" alt="PICT0338" title="PICT0338" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000494.html">
+    <img src="/img/thumbs/PICT0386.JPG" class="img-thumbnail center img-responsive" alt="PICT0386" title="PICT0386" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000495.html">
+    <img src="/img/thumbs/PICT0410.JPG" class="img-thumbnail center img-responsive" alt="PICT0410" title="PICT0410" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000496.html">
+    <img src="/img/thumbs/PICT0475.JPG" class="img-thumbnail center img-responsive" alt="PICT0475" title="PICT0475" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000497.html">
+    <img src="/img/thumbs/PICT0791.JPG" class="img-thumbnail center img-responsive" alt="PICT0791" title="PICT0791" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000498.html">
+    <img src="/img/thumbs/PICT0874.JPG" class="img-thumbnail center img-responsive" alt="PICT0874" title="PICT0874" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000499.html">
+    <img src="/img/thumbs/PICT0892.JPG" class="img-thumbnail center img-responsive" alt="PICT0892" title="PICT0892" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/en/photos/spycam/P0000500.html">
+    <img src="/img/thumbs/SUNP0002.JPG" class="img-thumbnail center img-responsive" alt="SUNP0002" title="SUNP0002" /></a>
+</div>
+
+
+      <!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p> -->
+      <!-- <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p> -->
+    </div>
+    <!-- End page content -->
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">
+          
+            <a href="/en/imprint.html" class="footerlink">Imprint</a>
+          
+          <span class="pull-right">&copy; Olaf 2014</span>
+        </p>
+      </div>
     </div>
 
-    <!-- JS and analytics only. -->
+
     <!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- <script src="./js/jquery.js"></script> -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-<script src="/js/bootstrap.js"></script>
-
-<script src="/js/holder.js"></script>
-
-<script src="/js/application.js"></script>
-
-<!-- Analytics
-================================================== -->
-
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -1,59 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
 
-<title>
-            
-            
-            Wilsonfontein - Hunting Safaris en Namibie / Afrique 
-        </title>
+    <title>Sticky Footer Navbar Template for Bootstrap</title>
 
-<!-- Bootstrap core CSS -->
-<link href="/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
 
-<!-- Documentation extras -->
-<link href="/css/wilson.css" rel="stylesheet">
-<!-- <link href="/css/pygments-manni.css" rel="stylesheet"> -->
+    <!-- Custom styles for this template -->
+    <!-- <link href="/css/sticky-footer-navbar.css" rel="stylesheet"> -->
+    <link href="/css/wilson.css" rel="stylesheet">
 
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-  <script src="./js/html5shiv.js"></script>
-  <script src="./js/respond.min.js"></script>
-<![endif]-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-<!-- Favicons -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="./ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./ico/apple-touch-icon-72-precomposed.png">
-                <link rel="apple-touch-icon-precomposed" href="./ico/apple-touch-icon-57-precomposed.png">
-                               <link rel="shortcut icon" href="./ico/favicon.png">
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-146052-10']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-    <!-- Place anything custom after this. -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
-  <body class="">
 
-    <!-- Docs master nav -->
-    <div class="navbar navbar-inverse bs-docs-nav">
+  <body>
+
+    <!-- Fixed navbar -->
+<!--     <div class="navbar navbar-inverse bs-docs-nav">
       <div class="container">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        </button>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
         <div class="nav-collapse collapse bs-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+              <li class="active"><a href="/fr/photos/">Photos</a></li>
+            
+              <li ><a href="/fr/tarifs.html">Tarifs</a></li>
+            
+              <li ><a href="/fr/contact.html">Contact</a></li>
+            
+              <li ><a href="/fr/hommage.html">Hommage</a></li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"> fr <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                
+                  <li><a href="/en/photos/">en</a></li>
+                
+                  <li><a href="/de/fotos/">de</a></li>
+                
+                  <li><a href="/fr/photos/">fr</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <ul class="nav navbar-nav ">
+        </ul>
+      </div>
+    </div> -->
+
+    <div class="navbar navbar-default " role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="#">Project name</a> -->
+        </div>
+        <div class="navbar-header">
           <ul class="nav navbar-nav">
             
               <li ><a href="/fr/index.html">Home</a></li>
@@ -64,6 +86,16 @@
             
               <li ><a href="/fr/detente.html">Détente</a></li>
             
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+            
+            
               <li class="active"><a href="/fr/photos/">Photos</a></li>
             
               <li ><a href="/fr/tarifs.html">Tarifs</a></li>
@@ -72,365 +104,590 @@
             
               <li ><a href="/fr/hommage.html">Hommage</a></li>
             
-              <li ><a href="/fr/imprint.html">Imprint</a></li>
-            
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> fr <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 
-                 <li><a href="/en/photos/">en</a></li>
+                  <li><a href="/en/photos/" class="en">en</a></li>
                 
-                 <li><a href="/de/fotos/">de</a></li>
+                  <li><a href="/de/fotos/" class="de">de</a></li>
                 
-                 <li><a href="/fr/photos/">fr</a></li>
+                  <li><a href="/fr/photos/" class="fr">fr</a></li>
                 
               </ul>
             </li>
+            <li class="dropdown dropdown-split">
+              <a href="#" class="foo">Dropdown</a><a href="#" class="dropdown-toggle bar" data-toggle="dropdown"><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+            <li>
+            
           </ul>
         </div>
-<!--         <ul class="nav navbar-nav ">
-        </ul> -->
       </div>
     </div>
 
-    <!-- Page content of course! -->
-    <div class="row">
+<!--     <div class="row">
         <div class="col-12 col-lg-8 col-offset-2">
-          <h1 class="big">Photos <small>Paysage</small></h1>
-          <div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000005.html'>
-    <img alt='kokerwald' class='img-thumbnail center img-responsive' src='/img/thumbs/kokerwald.jpg' title='kokerwald' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000006.html'>
-    <img alt='zuckerhut' class='img-thumbnail center img-responsive' src='/img/thumbs/zuckerhut.jpg' title='zuckerhut' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000007.html'>
-    <img alt='bei_nadab' class='img-thumbnail center img-responsive' src='/img/thumbs/bei_nadab.jpg' title='bei_nadab' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000008.html'>
-    <img alt='elefantenberg3' class='img-thumbnail center img-responsive' src='/img/thumbs/elefantenberg3.jpg' title='elefantenberg3' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000009.html'>
-    <img alt='ingoposten' class='img-thumbnail center img-responsive' src='/img/thumbs/ingoposten.jpg' title='ingoposten' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000011.html'>
-    <img alt='Bushband' class='img-thumbnail center img-responsive' src='/img/thumbs/Bushband.jpg' title='Bushband' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000013.html'>
-    <img alt='nadab_klippen' class='img-thumbnail center img-responsive' src='/img/thumbs/nadab_klippen.jpg' title='nadab_klippen' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000015.html'>
-    <img alt='quelle' class='img-thumbnail center img-responsive' src='/img/thumbs/quelle.jpg' title='quelle' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000016.html'>
-    <img alt='bei_wasserfall' class='img-thumbnail center img-responsive' src='/img/thumbs/bei_wasserfall.jpg' title='bei_wasserfall' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000017.html'>
-    <img alt='baum_im_baum_1' class='img-thumbnail center img-responsive' src='/img/thumbs/baum_im_baum_1.jpg' title='baum_im_baum_1' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000018.html'>
-    <img alt='warzenschweine' class='img-thumbnail center img-responsive' src='/img/thumbs/warzenschweine.jpg' title='warzenschweine' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000019.html'>
-    <img alt='twyfelfontein' class='img-thumbnail center img-responsive' src='/img/thumbs/twyfelfontein.jpg' title='twyfelfontein' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000025.html'>
-    <img alt='bergpad' class='img-thumbnail center img-responsive' src='/img/thumbs/bergpad.jpg' title='bergpad' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000027.html'>
-    <img alt='an_hausdamm_mauer' class='img-thumbnail center img-responsive' src='/img/thumbs/an_hausdamm_mauer.jpg' title='an_hausdamm_mauer' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000028.html'>
-    <img alt='pferde_auf_bergpass' class='img-thumbnail center img-responsive' src='/img/thumbs/pferde_auf_bergpass.jpg' title='pferde_auf_bergpass' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000037.html'>
-    <img alt='theresia_oben' class='img-thumbnail center img-responsive' src='/img/thumbs/theresia_oben.jpg' title='theresia_oben' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000039.html'>
-    <img alt='zackenberge' class='img-thumbnail center img-responsive' src='/img/thumbs/zackenberge.jpg' title='zackenberge' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000051.html'>
-    <img alt='Bischhoffshut_Sunset' class='img-thumbnail center img-responsive' src='/img/thumbs/Bischhoffshut_Sunset.jpg' title='Bischhoffshut_Sunset' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000052.html'>
-    <img alt='giraffen8' class='img-thumbnail center img-responsive' src='/img/thumbs/giraffen8.jpg' title='giraffen8' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000053.html'>
-    <img alt='sonnenuntergang_bei_teufelsschlucht' class='img-thumbnail center img-responsive' src='/img/thumbs/sonnenuntergang_bei_teufelsschlucht.jpg' title='sonnenuntergang_bei_teufelsschlucht' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000054.html'>
-    <img alt='bushmansvillage' class='img-thumbnail center img-responsive' src='/img/thumbs/bushmansvillage.jpg' title='bushmansvillage' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000055.html'>
-    <img alt='teufelsschlucht' class='img-thumbnail center img-responsive' src='/img/thumbs/teufelsschlucht.jpg' title='teufelsschlucht' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000057.html'>
-    <img alt='regen' class='img-thumbnail center img-responsive' src='/img/thumbs/regen.jpg' title='regen' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000060.html'>
-    <img alt='giraffe_sunset' class='img-thumbnail center img-responsive' src='/img/thumbs/giraffe_sunset.jpg' title='giraffe_sunset' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000064.html'>
-    <img alt='rooik_bei_zeichnung' class='img-thumbnail center img-responsive' src='/img/thumbs/rooik_bei_zeichnung.jpg' title='rooik_bei_zeichnung' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000068.html'>
-    <img alt='elefantenberg4' class='img-thumbnail center img-responsive' src='/img/thumbs/elefantenberg4.jpg' title='elefantenberg4' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000073.html'>
-    <img alt='gustavflaeche' class='img-thumbnail center img-responsive' src='/img/thumbs/gustavflaeche.jpg' title='gustavflaeche' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000080.html'>
-    <img alt='moringa' class='img-thumbnail center img-responsive' src='/img/thumbs/moringa.jpg' title='moringa' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000083.html'>
-    <img alt='stahlhelm' class='img-thumbnail center img-responsive' src='/img/thumbs/stahlhelm.jpg' title='stahlhelm' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000085.html'>
-    <img alt='gleich_bei_zeichnung' class='img-thumbnail center img-responsive' src='/img/thumbs/gleich_bei_zeichnung.jpg' title='gleich_bei_zeichnung' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000087.html'>
-    <img alt='kuppe' class='img-thumbnail center img-responsive' src='/img/thumbs/kuppe.jpg' title='kuppe' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000094.html'>
-    <img alt='aussicht3' class='img-thumbnail center img-responsive' src='/img/thumbs/aussicht3.jpg' title='aussicht3' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000098.html'>
-    <img alt='camelman' class='img-thumbnail center img-responsive' src='/img/thumbs/camelman.jpg' title='camelman' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000100.html'>
-    <img alt='maniberg' class='img-thumbnail center img-responsive' src='/img/thumbs/maniberg.jpg' title='maniberg' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000109.html'>
-    <img alt='giraffen_shadow' class='img-thumbnail center img-responsive' src='/img/thumbs/giraffen_shadow.jpg' title='giraffen_shadow' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000113.html'>
-    <img alt='hottentotten_kirche' class='img-thumbnail center img-responsive' src='/img/thumbs/hottentotten_kirche.jpg' title='hottentotten_kirche' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000114.html'>
-    <img alt='gegenueber_klippenbar' class='img-thumbnail center img-responsive' src='/img/thumbs/gegenueber_klippenbar.jpg' title='gegenueber_klippenbar' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000116.html'>
-    <img alt='kurve_bei_bank' class='img-thumbnail center img-responsive' src='/img/thumbs/kurve_bei_bank.jpg' title='kurve_bei_bank' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000122.html'>
-    <img alt='rooikuiseb_revier' class='img-thumbnail center img-responsive' src='/img/thumbs/rooikuiseb_revier.jpg' title='rooikuiseb_revier' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000123.html'>
-    <img alt='springboeke_in_flaeche' class='img-thumbnail center img-responsive' src='/img/thumbs/springboeke_in_flaeche.jpg' title='springboeke_in_flaeche' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000125.html'>
-    <img alt='hunde_himmel' class='img-thumbnail center img-responsive' src='/img/thumbs/hunde_himmel.jpg' title='hunde_himmel' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000126.html'>
-    <img alt='regen_bei_feigenbaum' class='img-thumbnail center img-responsive' src='/img/thumbs/regen_bei_feigenbaum.jpg' title='regen_bei_feigenbaum' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000127.html'>
-    <img alt='flaechekirche' class='img-thumbnail center img-responsive' src='/img/thumbs/flaechekirche.jpg' title='flaechekirche' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000134.html'>
-    <img alt='achasquelle_mit_baum' class='img-thumbnail center img-responsive' src='/img/thumbs/achasquelle_mit_baum.jpg' title='achasquelle_mit_baum' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000136.html'>
-    <img alt='zwillinge' class='img-thumbnail center img-responsive' src='/img/thumbs/zwillinge.jpg' title='zwillinge' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000140.html'>
-    <img alt='Sicht_aus_Topfbrennerei' class='img-thumbnail center img-responsive' src='/img/thumbs/Sicht_aus_Topfbrennerei.jpg' title='Sicht_aus_Topfbrennerei' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000141.html'>
-    <img alt='Pfote_zum_Vlei' class='img-thumbnail center img-responsive' src='/img/thumbs/Pfote_zum_Vlei.jpg' title='Pfote_zum_Vlei' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000146.html'>
-    <img alt='farm_ostriches' class='img-thumbnail center img-responsive' src='/img/thumbs/farm_ostriches.jpg' title='farm_ostriches' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000151.html'>
-    <img alt='kirche+vlakte' class='img-thumbnail center img-responsive' src='/img/thumbs/kirche+vlakte.jpg' title='kirche+vlakte' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000156.html'>
-    <img alt='bergpass' class='img-thumbnail center img-responsive' src='/img/thumbs/bergpass.jpg' title='bergpass' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000158.html'>
-    <img alt='vlei' class='img-thumbnail center img-responsive' src='/img/thumbs/vlei.jpg' title='vlei' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000160.html'>
-    <img alt='hottentottenkirche1' class='img-thumbnail center img-responsive' src='/img/thumbs/hottentottenkirche1.jpg' title='hottentottenkirche1' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000163.html'>
-    <img alt='2giraffen' class='img-thumbnail center img-responsive' src='/img/thumbs/2giraffen.jpg' title='2giraffen' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000177.html'>
-    <img alt='giraffe_teufelsschlucht' class='img-thumbnail center img-responsive' src='/img/thumbs/giraffe_teufelsschlucht.jpg' title='giraffe_teufelsschlucht' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000182.html'>
-    <img alt='aussicht2' class='img-thumbnail center img-responsive' src='/img/thumbs/aussicht2.jpg' title='aussicht2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000185.html'>
-    <img alt='weite' class='img-thumbnail center img-responsive' src='/img/thumbs/weite.jpg' title='weite' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000186.html'>
-    <img alt='cowboy' class='img-thumbnail center img-responsive' src='/img/thumbs/cowboy.jpg' title='cowboy' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000190.html'>
-    <img alt='Elefantenfuss' class='img-thumbnail center img-responsive' src='/img/thumbs/Elefantenfuss.jpg' title='Elefantenfuss' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000197.html'>
-    <img alt='Hottentotten Church' class='img-thumbnail center img-responsive' src='/img/thumbs/hottentottenkirche2.jpg' title='Hottentotten Church' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000204.html'>
-    <img alt='elefantenberg2' class='img-thumbnail center img-responsive' src='/img/thumbs/elefantenberg2.jpg' title='elefantenberg2' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000205.html'>
-    <img alt='Farmview' class='img-thumbnail center img-responsive' src='/img/thumbs/Farmview.jpg' title='Farmview' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000206.html'>
-    <img alt='Hinter_Kirche_Baum' class='img-thumbnail center img-responsive' src='/img/thumbs/Hinter_Kirche_Baum.jpg' title='Hinter_Kirche_Baum' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000211.html'>
-    <img alt='oryx' class='img-thumbnail center img-responsive' src='/img/thumbs/oryx.jpg' title='oryx' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000212.html'>
-    <img alt='bank_voll' class='img-thumbnail center img-responsive' src='/img/thumbs/bank_voll.jpg' title='bank_voll' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000215.html'>
-    <img alt='farm_5' class='img-thumbnail center img-responsive' src='/img/thumbs/farm_5.jpg' title='farm_5' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000218.html'>
-    <img alt='elefantenberg' class='img-thumbnail center img-responsive' src='/img/thumbs/elefantenberg.jpg' title='elefantenberg' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000219.html'>
-    <img alt='giraffen3' class='img-thumbnail center img-responsive' src='/img/thumbs/giraffen3.jpg' title='giraffen3' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000246.html'>
-    <img alt='Farm 1 schoene Photos 047' class='img-thumbnail center img-responsive' src='/img/thumbs/Farm 1 schoene Photos 047.jpg' title='Farm 1 schoene Photos 047' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000256.html'>
-    <img alt='Farm 1 schoene Photos 017' class='img-thumbnail center img-responsive' src='/img/thumbs/Farm 1 schoene Photos 017.jpg' title='Farm 1 schoene Photos 017' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000267.html'>
-    <img alt='DSC_0524' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0524.JPG' title='DSC_0524' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000269.html'>
-    <img alt='IMG_6889 Kopie' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_6889 Kopie.jpg' title='IMG_6889 Kopie' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000272.html'>
-    <img alt='DSC_0393' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0393.JPG' title='DSC_0393' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000273.html'>
-    <img alt='DSC_0159' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0159.jpg' title='DSC_0159' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000274.html'>
-    <img alt='Farm 1 schoene Photos 020' class='img-thumbnail center img-responsive' src='/img/thumbs/Farm 1 schoene Photos 020.jpg' title='Farm 1 schoene Photos 020' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000275.html'>
-    <img alt='DSC01404' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC01404.JPG' title='DSC01404' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000276.html'>
-    <img alt='DSCN3507' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3507.JPG' title='DSCN3507' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000280.html'>
-    <img alt='DSC_0357' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0357.jpg' title='DSC_0357' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000282.html'>
-    <img alt='PIC01400' class='img-thumbnail center img-responsive' src='/img/thumbs/PIC01400.JPG' title='PIC01400' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000285.html'>
-    <img alt='DSC01468' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC01468.JPG' title='DSC01468' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000307.html'>
-    <img alt='DSCN4320' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4320.JPG' title='DSCN4320' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000310.html'>
-    <img alt='DSCN4362' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4362.JPG' title='DSCN4362' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000314.html'>
-    <img alt='DSCN4448' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN4448.JPG' title='DSCN4448' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000352.html'>
-    <img alt='Tigan_Chelly_096' class='img-thumbnail center img-responsive' src='/img/thumbs/Tigan_Chelly_096.jpg' title='Tigan_Chelly_096' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000354.html'>
-    <img alt='Tigan_Chelly_125' class='img-thumbnail center img-responsive' src='/img/thumbs/Tigan_Chelly_125.jpg' title='Tigan_Chelly_125' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000355.html'>
-    <img alt='Tigan_Chelly_132' class='img-thumbnail center img-responsive' src='/img/thumbs/Tigan_Chelly_132.jpg' title='Tigan_Chelly_132' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000356.html'>
-    <img alt='Tigan_Chelly_136' class='img-thumbnail center img-responsive' src='/img/thumbs/Tigan_Chelly_136.jpg' title='Tigan_Chelly_136' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000363.html'>
-    <img alt='CIMG0359' class='img-thumbnail center img-responsive' src='/img/thumbs/CIMG0359.JPG' title='CIMG0359' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000364.html'>
-    <img alt='DSC_0049' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0049.JPG' title='DSC_0049' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000366.html'>
-    <img alt='DSC_0669' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0669.JPG' title='DSC_0669' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000368.html'>
-    <img alt='DSC_0864' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC_0864.JPG' title='DSC_0864' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000370.html'>
-    <img alt='DSC00422' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC00422.JPG' title='DSC00422' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000374.html'>
-    <img alt='DSC01451' class='img-thumbnail center img-responsive' src='/img/thumbs/DSC01451.JPG' title='DSC01451' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000381.html'>
-    <img alt='DSCN3714' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3714.JPG' title='DSCN3714' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000382.html'>
-    <img alt='DSCN3732' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3732.JPG' title='DSCN3732' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000383.html'>
-    <img alt='DSCN3733' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3733.JPG' title='DSCN3733' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000384.html'>
-    <img alt='DSCN3747' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3747.JPG' title='DSCN3747' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000385.html'>
-    <img alt='DSCN3752' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3752.JPG' title='DSCN3752' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000386.html'>
-    <img alt='DSCN3760' class='img-thumbnail center img-responsive' src='/img/thumbs/DSCN3760.JPG' title='DSCN3760' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000395.html'>
-    <img alt='IMG_0736' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_0736.JPG' title='IMG_0736' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000396.html'>
-    <img alt='IMG_0849' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_0849.jpg' title='IMG_0849' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000399.html'>
-    <img alt='IMG_6520' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_6520.JPG' title='IMG_6520' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000400.html'>
-    <img alt='IMG_6577' class='img-thumbnail center img-responsive' src='/img/thumbs/IMG_6577.JPG' title='IMG_6577' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000405.html'>
-    <img alt='IMGP3570' class='img-thumbnail center img-responsive' src='/img/thumbs/IMGP3570.JPG' title='IMGP3570' /></a>
-</div><div class='col-4 col-lg-2 margin-bottom'>
-    <a href='/fr/photos/paysage/P0000406.html'>
-    <img alt='IMGP3849' class='img-thumbnail center img-responsive' src='/img/thumbs/IMGP3849.JPG' title='IMGP3849' /></a>
-</div>
-          <footer>
-            <p class="pull-right">&copy; Olaf 2013</p>
-          </footer>
         </div>
+    </div> -->
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Photos <small>Paysage</small></h1>
+        <!-- <h1>Sticky footer with fixed navbar</h1> -->
+      </div>
+      
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000005.html">
+    <img src="/img/thumbs/kokerwald.jpg" class="img-thumbnail center img-responsive" alt="kokerwald" title="kokerwald" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000006.html">
+    <img src="/img/thumbs/zuckerhut.jpg" class="img-thumbnail center img-responsive" alt="zuckerhut" title="zuckerhut" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000007.html">
+    <img src="/img/thumbs/bei_nadab.jpg" class="img-thumbnail center img-responsive" alt="bei_nadab" title="bei_nadab" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000008.html">
+    <img src="/img/thumbs/elefantenberg3.jpg" class="img-thumbnail center img-responsive" alt="elefantenberg3" title="elefantenberg3" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000009.html">
+    <img src="/img/thumbs/ingoposten.jpg" class="img-thumbnail center img-responsive" alt="ingoposten" title="ingoposten" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000011.html">
+    <img src="/img/thumbs/Bushband.jpg" class="img-thumbnail center img-responsive" alt="Bushband" title="Bushband" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000013.html">
+    <img src="/img/thumbs/nadab_klippen.jpg" class="img-thumbnail center img-responsive" alt="nadab_klippen" title="nadab_klippen" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000015.html">
+    <img src="/img/thumbs/quelle.jpg" class="img-thumbnail center img-responsive" alt="quelle" title="quelle" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000016.html">
+    <img src="/img/thumbs/bei_wasserfall.jpg" class="img-thumbnail center img-responsive" alt="bei_wasserfall" title="bei_wasserfall" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000017.html">
+    <img src="/img/thumbs/baum_im_baum_1.jpg" class="img-thumbnail center img-responsive" alt="baum_im_baum_1" title="baum_im_baum_1" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000018.html">
+    <img src="/img/thumbs/warzenschweine.jpg" class="img-thumbnail center img-responsive" alt="warzenschweine" title="warzenschweine" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000019.html">
+    <img src="/img/thumbs/twyfelfontein.jpg" class="img-thumbnail center img-responsive" alt="twyfelfontein" title="twyfelfontein" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000025.html">
+    <img src="/img/thumbs/bergpad.jpg" class="img-thumbnail center img-responsive" alt="bergpad" title="bergpad" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000027.html">
+    <img src="/img/thumbs/an_hausdamm_mauer.jpg" class="img-thumbnail center img-responsive" alt="an_hausdamm_mauer" title="an_hausdamm_mauer" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000028.html">
+    <img src="/img/thumbs/pferde_auf_bergpass.jpg" class="img-thumbnail center img-responsive" alt="pferde_auf_bergpass" title="pferde_auf_bergpass" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000037.html">
+    <img src="/img/thumbs/theresia_oben.jpg" class="img-thumbnail center img-responsive" alt="theresia_oben" title="theresia_oben" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000039.html">
+    <img src="/img/thumbs/zackenberge.jpg" class="img-thumbnail center img-responsive" alt="zackenberge" title="zackenberge" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000051.html">
+    <img src="/img/thumbs/Bischhoffshut_Sunset.jpg" class="img-thumbnail center img-responsive" alt="Bischhoffshut_Sunset" title="Bischhoffshut_Sunset" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000052.html">
+    <img src="/img/thumbs/giraffen8.jpg" class="img-thumbnail center img-responsive" alt="giraffen8" title="giraffen8" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000053.html">
+    <img src="/img/thumbs/sonnenuntergang_bei_teufelsschlucht.jpg" class="img-thumbnail center img-responsive" alt="sonnenuntergang_bei_teufelsschlucht" title="sonnenuntergang_bei_teufelsschlucht" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000054.html">
+    <img src="/img/thumbs/bushmansvillage.jpg" class="img-thumbnail center img-responsive" alt="bushmansvillage" title="bushmansvillage" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000055.html">
+    <img src="/img/thumbs/teufelsschlucht.jpg" class="img-thumbnail center img-responsive" alt="teufelsschlucht" title="teufelsschlucht" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000057.html">
+    <img src="/img/thumbs/regen.jpg" class="img-thumbnail center img-responsive" alt="regen" title="regen" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000060.html">
+    <img src="/img/thumbs/giraffe_sunset.jpg" class="img-thumbnail center img-responsive" alt="giraffe_sunset" title="giraffe_sunset" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000064.html">
+    <img src="/img/thumbs/rooik_bei_zeichnung.jpg" class="img-thumbnail center img-responsive" alt="rooik_bei_zeichnung" title="rooik_bei_zeichnung" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000068.html">
+    <img src="/img/thumbs/elefantenberg4.jpg" class="img-thumbnail center img-responsive" alt="elefantenberg4" title="elefantenberg4" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000073.html">
+    <img src="/img/thumbs/gustavflaeche.jpg" class="img-thumbnail center img-responsive" alt="gustavflaeche" title="gustavflaeche" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000080.html">
+    <img src="/img/thumbs/moringa.jpg" class="img-thumbnail center img-responsive" alt="moringa" title="moringa" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000083.html">
+    <img src="/img/thumbs/stahlhelm.jpg" class="img-thumbnail center img-responsive" alt="stahlhelm" title="stahlhelm" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000085.html">
+    <img src="/img/thumbs/gleich_bei_zeichnung.jpg" class="img-thumbnail center img-responsive" alt="gleich_bei_zeichnung" title="gleich_bei_zeichnung" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000087.html">
+    <img src="/img/thumbs/kuppe.jpg" class="img-thumbnail center img-responsive" alt="kuppe" title="kuppe" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000094.html">
+    <img src="/img/thumbs/aussicht3.jpg" class="img-thumbnail center img-responsive" alt="aussicht3" title="aussicht3" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000098.html">
+    <img src="/img/thumbs/camelman.jpg" class="img-thumbnail center img-responsive" alt="camelman" title="camelman" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000100.html">
+    <img src="/img/thumbs/maniberg.jpg" class="img-thumbnail center img-responsive" alt="maniberg" title="maniberg" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000109.html">
+    <img src="/img/thumbs/giraffen_shadow.jpg" class="img-thumbnail center img-responsive" alt="giraffen_shadow" title="giraffen_shadow" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000113.html">
+    <img src="/img/thumbs/hottentotten_kirche.jpg" class="img-thumbnail center img-responsive" alt="hottentotten_kirche" title="hottentotten_kirche" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000114.html">
+    <img src="/img/thumbs/gegenueber_klippenbar.jpg" class="img-thumbnail center img-responsive" alt="gegenueber_klippenbar" title="gegenueber_klippenbar" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000116.html">
+    <img src="/img/thumbs/kurve_bei_bank.jpg" class="img-thumbnail center img-responsive" alt="kurve_bei_bank" title="kurve_bei_bank" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000122.html">
+    <img src="/img/thumbs/rooikuiseb_revier.jpg" class="img-thumbnail center img-responsive" alt="rooikuiseb_revier" title="rooikuiseb_revier" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000123.html">
+    <img src="/img/thumbs/springboeke_in_flaeche.jpg" class="img-thumbnail center img-responsive" alt="springboeke_in_flaeche" title="springboeke_in_flaeche" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000125.html">
+    <img src="/img/thumbs/hunde_himmel.jpg" class="img-thumbnail center img-responsive" alt="hunde_himmel" title="hunde_himmel" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000126.html">
+    <img src="/img/thumbs/regen_bei_feigenbaum.jpg" class="img-thumbnail center img-responsive" alt="regen_bei_feigenbaum" title="regen_bei_feigenbaum" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000127.html">
+    <img src="/img/thumbs/flaechekirche.jpg" class="img-thumbnail center img-responsive" alt="flaechekirche" title="flaechekirche" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000134.html">
+    <img src="/img/thumbs/achasquelle_mit_baum.jpg" class="img-thumbnail center img-responsive" alt="achasquelle_mit_baum" title="achasquelle_mit_baum" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000136.html">
+    <img src="/img/thumbs/zwillinge.jpg" class="img-thumbnail center img-responsive" alt="zwillinge" title="zwillinge" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000140.html">
+    <img src="/img/thumbs/Sicht_aus_Topfbrennerei.jpg" class="img-thumbnail center img-responsive" alt="Sicht_aus_Topfbrennerei" title="Sicht_aus_Topfbrennerei" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000141.html">
+    <img src="/img/thumbs/Pfote_zum_Vlei.jpg" class="img-thumbnail center img-responsive" alt="Pfote_zum_Vlei" title="Pfote_zum_Vlei" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000146.html">
+    <img src="/img/thumbs/farm_ostriches.jpg" class="img-thumbnail center img-responsive" alt="farm_ostriches" title="farm_ostriches" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000151.html">
+    <img src="/img/thumbs/kirche+vlakte.jpg" class="img-thumbnail center img-responsive" alt="kirche+vlakte" title="kirche+vlakte" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000156.html">
+    <img src="/img/thumbs/bergpass.jpg" class="img-thumbnail center img-responsive" alt="bergpass" title="bergpass" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000158.html">
+    <img src="/img/thumbs/vlei.jpg" class="img-thumbnail center img-responsive" alt="vlei" title="vlei" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000160.html">
+    <img src="/img/thumbs/hottentottenkirche1.jpg" class="img-thumbnail center img-responsive" alt="hottentottenkirche1" title="hottentottenkirche1" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000163.html">
+    <img src="/img/thumbs/2giraffen.jpg" class="img-thumbnail center img-responsive" alt="2giraffen" title="2giraffen" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000177.html">
+    <img src="/img/thumbs/giraffe_teufelsschlucht.jpg" class="img-thumbnail center img-responsive" alt="giraffe_teufelsschlucht" title="giraffe_teufelsschlucht" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000182.html">
+    <img src="/img/thumbs/aussicht2.jpg" class="img-thumbnail center img-responsive" alt="aussicht2" title="aussicht2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000185.html">
+    <img src="/img/thumbs/weite.jpg" class="img-thumbnail center img-responsive" alt="weite" title="weite" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000186.html">
+    <img src="/img/thumbs/cowboy.jpg" class="img-thumbnail center img-responsive" alt="cowboy" title="cowboy" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000190.html">
+    <img src="/img/thumbs/Elefantenfuss.jpg" class="img-thumbnail center img-responsive" alt="Elefantenfuss" title="Elefantenfuss" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000197.html">
+    <img src="/img/thumbs/hottentottenkirche2.jpg" class="img-thumbnail center img-responsive" alt="Hottentotten Church" title="Hottentotten Church" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000204.html">
+    <img src="/img/thumbs/elefantenberg2.jpg" class="img-thumbnail center img-responsive" alt="elefantenberg2" title="elefantenberg2" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000205.html">
+    <img src="/img/thumbs/Farmview.jpg" class="img-thumbnail center img-responsive" alt="Farmview" title="Farmview" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000206.html">
+    <img src="/img/thumbs/Hinter_Kirche_Baum.jpg" class="img-thumbnail center img-responsive" alt="Hinter_Kirche_Baum" title="Hinter_Kirche_Baum" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000211.html">
+    <img src="/img/thumbs/oryx.jpg" class="img-thumbnail center img-responsive" alt="oryx" title="oryx" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000212.html">
+    <img src="/img/thumbs/bank_voll.jpg" class="img-thumbnail center img-responsive" alt="bank_voll" title="bank_voll" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000215.html">
+    <img src="/img/thumbs/farm_5.jpg" class="img-thumbnail center img-responsive" alt="farm_5" title="farm_5" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000218.html">
+    <img src="/img/thumbs/elefantenberg.jpg" class="img-thumbnail center img-responsive" alt="elefantenberg" title="elefantenberg" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000219.html">
+    <img src="/img/thumbs/giraffen3.jpg" class="img-thumbnail center img-responsive" alt="giraffen3" title="giraffen3" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000246.html">
+    <img src="/img/thumbs/Farm 1 schoene Photos 047.jpg" class="img-thumbnail center img-responsive" alt="Farm 1 schoene Photos 047" title="Farm 1 schoene Photos 047" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000256.html">
+    <img src="/img/thumbs/Farm 1 schoene Photos 017.jpg" class="img-thumbnail center img-responsive" alt="Farm 1 schoene Photos 017" title="Farm 1 schoene Photos 017" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000267.html">
+    <img src="/img/thumbs/DSC_0524.JPG" class="img-thumbnail center img-responsive" alt="DSC_0524" title="DSC_0524" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000269.html">
+    <img src="/img/thumbs/IMG_6889 Kopie.jpg" class="img-thumbnail center img-responsive" alt="IMG_6889 Kopie" title="IMG_6889 Kopie" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000272.html">
+    <img src="/img/thumbs/DSC_0393.JPG" class="img-thumbnail center img-responsive" alt="DSC_0393" title="DSC_0393" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000273.html">
+    <img src="/img/thumbs/DSC_0159.jpg" class="img-thumbnail center img-responsive" alt="DSC_0159" title="DSC_0159" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000274.html">
+    <img src="/img/thumbs/Farm 1 schoene Photos 020.jpg" class="img-thumbnail center img-responsive" alt="Farm 1 schoene Photos 020" title="Farm 1 schoene Photos 020" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000275.html">
+    <img src="/img/thumbs/DSC01404.JPG" class="img-thumbnail center img-responsive" alt="DSC01404" title="DSC01404" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000276.html">
+    <img src="/img/thumbs/DSCN3507.JPG" class="img-thumbnail center img-responsive" alt="DSCN3507" title="DSCN3507" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000280.html">
+    <img src="/img/thumbs/DSC_0357.jpg" class="img-thumbnail center img-responsive" alt="DSC_0357" title="DSC_0357" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000282.html">
+    <img src="/img/thumbs/PIC01400.JPG" class="img-thumbnail center img-responsive" alt="PIC01400" title="PIC01400" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000285.html">
+    <img src="/img/thumbs/DSC01468.JPG" class="img-thumbnail center img-responsive" alt="DSC01468" title="DSC01468" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000307.html">
+    <img src="/img/thumbs/DSCN4320.JPG" class="img-thumbnail center img-responsive" alt="DSCN4320" title="DSCN4320" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000310.html">
+    <img src="/img/thumbs/DSCN4362.JPG" class="img-thumbnail center img-responsive" alt="DSCN4362" title="DSCN4362" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000314.html">
+    <img src="/img/thumbs/DSCN4448.JPG" class="img-thumbnail center img-responsive" alt="DSCN4448" title="DSCN4448" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000352.html">
+    <img src="/img/thumbs/Tigan_Chelly_096.jpg" class="img-thumbnail center img-responsive" alt="Tigan_Chelly_096" title="Tigan_Chelly_096" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000354.html">
+    <img src="/img/thumbs/Tigan_Chelly_125.jpg" class="img-thumbnail center img-responsive" alt="Tigan_Chelly_125" title="Tigan_Chelly_125" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000355.html">
+    <img src="/img/thumbs/Tigan_Chelly_132.jpg" class="img-thumbnail center img-responsive" alt="Tigan_Chelly_132" title="Tigan_Chelly_132" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000356.html">
+    <img src="/img/thumbs/Tigan_Chelly_136.jpg" class="img-thumbnail center img-responsive" alt="Tigan_Chelly_136" title="Tigan_Chelly_136" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000363.html">
+    <img src="/img/thumbs/CIMG0359.JPG" class="img-thumbnail center img-responsive" alt="CIMG0359" title="CIMG0359" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000364.html">
+    <img src="/img/thumbs/DSC_0049.JPG" class="img-thumbnail center img-responsive" alt="DSC_0049" title="DSC_0049" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000366.html">
+    <img src="/img/thumbs/DSC_0669.JPG" class="img-thumbnail center img-responsive" alt="DSC_0669" title="DSC_0669" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000368.html">
+    <img src="/img/thumbs/DSC_0864.JPG" class="img-thumbnail center img-responsive" alt="DSC_0864" title="DSC_0864" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000370.html">
+    <img src="/img/thumbs/DSC00422.JPG" class="img-thumbnail center img-responsive" alt="DSC00422" title="DSC00422" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000374.html">
+    <img src="/img/thumbs/DSC01451.JPG" class="img-thumbnail center img-responsive" alt="DSC01451" title="DSC01451" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000381.html">
+    <img src="/img/thumbs/DSCN3714.JPG" class="img-thumbnail center img-responsive" alt="DSCN3714" title="DSCN3714" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000382.html">
+    <img src="/img/thumbs/DSCN3732.JPG" class="img-thumbnail center img-responsive" alt="DSCN3732" title="DSCN3732" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000383.html">
+    <img src="/img/thumbs/DSCN3733.JPG" class="img-thumbnail center img-responsive" alt="DSCN3733" title="DSCN3733" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000384.html">
+    <img src="/img/thumbs/DSCN3747.JPG" class="img-thumbnail center img-responsive" alt="DSCN3747" title="DSCN3747" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000385.html">
+    <img src="/img/thumbs/DSCN3752.JPG" class="img-thumbnail center img-responsive" alt="DSCN3752" title="DSCN3752" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000386.html">
+    <img src="/img/thumbs/DSCN3760.JPG" class="img-thumbnail center img-responsive" alt="DSCN3760" title="DSCN3760" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000395.html">
+    <img src="/img/thumbs/IMG_0736.JPG" class="img-thumbnail center img-responsive" alt="IMG_0736" title="IMG_0736" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000396.html">
+    <img src="/img/thumbs/IMG_0849.jpg" class="img-thumbnail center img-responsive" alt="IMG_0849" title="IMG_0849" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000399.html">
+    <img src="/img/thumbs/IMG_6520.JPG" class="img-thumbnail center img-responsive" alt="IMG_6520" title="IMG_6520" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000400.html">
+    <img src="/img/thumbs/IMG_6577.JPG" class="img-thumbnail center img-responsive" alt="IMG_6577" title="IMG_6577" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000405.html">
+    <img src="/img/thumbs/IMGP3570.JPG" class="img-thumbnail center img-responsive" alt="IMGP3570" title="IMGP3570" /></a>
+</div>
+
+<div class="col-4 col-lg-2 margin-bottom">
+    <a href="/fr/photos/paysage/P0000406.html">
+    <img src="/img/thumbs/IMGP3849.JPG" class="img-thumbnail center img-responsive" alt="IMGP3849" title="IMGP3849" /></a>
+</div>
+
+
+      <!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p> -->
+      <!-- <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p> -->
+    </div>
+    <!-- End page content -->
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">
+          
+            <a href="/fr/imprint.html" class="footerlink">Imprint</a>
+          
+          <span class="pull-right">&copy; Olaf 2014</span>
+        </p>
+      </div>
     </div>
 
-    <!-- JS and analytics only. -->
+
     <!-- Bootstrap core JavaScript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<!-- <script src="./js/jquery.js"></script> -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-<script src="/js/bootstrap.js"></script>
-
-<script src="/js/holder.js"></script>
-
-<script src="/js/application.js"></script>
-
-<!-- Analytics
-================================================== -->
-
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>

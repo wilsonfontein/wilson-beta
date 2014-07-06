@@ -17,6 +17,7 @@
     <!-- Custom styles for this template -->
     <!-- <link href="/css/sticky-footer-navbar.css" rel="stylesheet"> -->
     <link href="/css/wilson.css" rel="stylesheet">
+    <link href="/js/leaflet.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -150,6 +151,8 @@
 
 <p>La Namibie se trouve dans le sud du continent africain. Elle est bordée au nord par l’Angola, à l’est par le Botswana et au sud par l’Afrique du Sud. Wilsonfontein se trouve à vol d’oiseau à mi-chemin entre Windhoek et Swakopmund (Atlantique). L’altitude moyenne du territoire se trouve à 1200 m, ce qui confère un climat sec particulièrement sain. C’est d’ailleurs la raison pour laquelle il n’y a aucun risque de malaria. En hiver (juillet-août) les nuits peuvent être très fraîches.</p>
 
+<div id="map" style="height: 480px;"></div>
+
 <h2 id="comment-vous-rendre-chez-nous">Comment vous rendre chez nous</h2>
 
 <p>A partir de Windhoek suivez la route B1 jusqu’à Okahandja, puis la B2 Wilhelmstal jusqu‘à Karibib (180 km de route goudronée) puis 76 Km vers le sud sur la C32 (piste), et enfin 10 Km sur la P1978 jusqu’au lodge.</p>
@@ -169,6 +172,17 @@
 <p>Veillez à rouler doucement lorsque vous empruntez une piste, car les voitures dérapent très facilement dans les virages. Lorsqu’un autre véhicule apparaît en face de vous réjouissez-vous de ne pas être seuls, allumez vos feux de croisement, ralentissez et faites attention aux projections de pierres. Attention, en Namibie la conduite se fait à gauche.</p>
 
 <p>En cas d’enlisement dans du sable, dégagez le sable devant les roues, dégonflez légèrement les pneus et démarrez doucement en laissant patiner l‘embrayage. N’oubliez pas de regonfler immédiatement vos pneus afin de ne pas les endommager.</p>
+
+<script src="/js/leaflet.js"></script>
+
+<script type="text/javascript">
+    var map = L.map('map').setView([0, 0], 3);
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+        maxZoom: 18
+    }).addTo(map);
+    var marker = L.marker([-22.63669,15.78753]).addTo(map).bindPopup('Farm Wilsonfontein');
+</script>
 
 
       <!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body > .container</code>.</p> -->
